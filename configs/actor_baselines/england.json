@@ -1,0 +1,15 @@
+{
+  "task": "conditional_actor_A",
+  "datasets": [{"scope": "configs/model/England_nontest.json", "native_dir": "data/processed/England_nontest/actor_baselines"}],
+  "encoders": {
+    "seq2event": {"window": 40, "action_embedding": 7, "continuous_embedding": 10, "heads": 1, "layers": 1, "ffn": 8, "readout": 64, "dropout": 0.1},
+    "nmstpp": {"window": 40, "heads": 1, "ffn": 1024, "dropout": 0.1},
+    "lem": {"window": 3, "hidden_sizes": [196, 196, 196], "dropout": 0.3}
+  },
+  "learning_rates": [0.0003, 0.001, 0.0027],
+  "search_seed": 20261021,
+  "confirmation_seeds": [20261022, 20261023],
+  "prediction_batch": 256,
+  "training": {"epochs": 120, "milestones": [96, 108], "factor": 0.3, "batch": 256, "targets_per_match": 128, "validate_every": 4, "weight_decay": 0.0001, "clip": 5.0},
+  "smoke": {"epochs": 2, "milestones": [], "batch": 32, "targets_per_match": 32, "validate_every": 1, "train_matches": 2, "validation_targets": 128}
+}

@@ -1,0 +1,42 @@
+{
+ "title": "无球位置探针（五联赛验证期，叠在 M1 上）",
+ "scopes": [
+  "configs/model/England_nontest.json",
+  "configs/model/France_nontest.json",
+  "configs/model/Germany_nontest.json",
+  "configs/model/Italy_nontest.json",
+  "configs/model/Spain_nontest.json"
+ ],
+ "models": {
+  "M1": "results/model/m1/seed20260715/offsets.npz",
+  "M1+E0": "results/model/offball_probe/m1/e0.npz",
+  "M1+E2": "results/model/offball_probe/m1/e2.npz",
+  "M1+E0+E2": "results/model/offball_probe/m1/e0_e2.npz"
+ },
+ "comparisons": [
+  [
+   "M1+E0",
+   "M1",
+   "停留位置"
+  ],
+  [
+   "M1+E2",
+   "M1",
+   "阵型推断"
+  ],
+  [
+   "M1+E0+E2",
+   "M1",
+   "两者"
+  ],
+  [
+   "M1+E0+E2",
+   "M1+E0",
+   "阵型推断超出停留的部分"
+  ]
+ ],
+ "bootstrap": 10000,
+ "seed": 20261026,
+ "out_json": "results/model/offball_probe/eval_m1.json",
+ "out_md": "results/model/offball_probe/eval_m1.md"
+}

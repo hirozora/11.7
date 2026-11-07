@@ -1,0 +1,14 @@
+{
+ "max_parameter_difference": 5.81072642530378e-07,
+ "loglik_difference_per_action": 3.6695162380861677e-14,
+ "torch_objective": 1530475.0113639785,
+ "scipy_objective": 1530475.0113639256,
+ "targets": 1440314,
+ "parameters": 91402,
+ "passed": true,
+ "model": "degenerate",
+ "lam_r": 0.0,
+ "seed": 20260715,
+ "config": "configs/model/entity.json",
+ "wall_seconds": 109.9
+}

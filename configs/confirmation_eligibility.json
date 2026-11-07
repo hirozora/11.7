@@ -1,0 +1,33 @@
+{
+  "purpose": "Eligibility ceiling for the completed-data reanalysis; these flags are not current findings.",
+  "eligible": {
+    "R3-P": true,
+    "P1": true,
+    "T1": true,
+    "T2a": true,
+    "I1a": true,
+    "R3-Eb": true,
+    "TY3a": false,
+    "TY4": true,
+    "P3prime": false,
+    "T4prime": false,
+    "R1-Pa": true,
+    "R1-Pb": true,
+    "R1-Pc": true,
+    "R2-Pb": true,
+    "R4-P": false,
+    "R5-P": true,
+    "P2": true,
+    "R3-Ea": true,
+    "R4-Ea": false,
+    "R4-Eb": false,
+    "T2c": true,
+    "T2d": true,
+    "I1b": true,
+    "I2a": true,
+    "I2c": true,
+    "TY3b": true,
+    "C1": true,
+    "C2": true
+  }
+}

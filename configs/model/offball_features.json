@@ -1,0 +1,11 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json",
+    "configs/model/France_nontest.json",
+    "configs/model/Germany_nontest.json",
+    "configs/model/Italy_nontest.json",
+    "configs/model/Spain_nontest.json"
+  ],
+  "anchor_actions": 5,
+  "anchor_seconds": 20
+}

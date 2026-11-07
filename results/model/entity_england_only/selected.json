@@ -1,0 +1,36 @@
+{
+ "m2": {
+  "ridge_scale": 3.0,
+  "validation_nll": 1.1275785157752982,
+  "scores": "results/model/entity_england_only/m2_c3/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.1292623364755676,
+    "objective": 1.1130608804523945,
+    "train_nll": 1.1080747097730637,
+    "gradient_max": 3.895978443324566e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity_england_only/m2_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.1276630434782609,
+    "objective": 1.1185589428059757,
+    "train_nll": 1.1136668920516968,
+    "gradient_max": 2.6461289962753654e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity_england_only/m2_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.1275785157752982,
+    "objective": 1.1236488595604897,
+    "train_nll": 1.1194757521152496,
+    "gradient_max": 5.0351067329756916e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity_england_only/m2_c3/scores.npz"
+   }
+  ]
+ }
+}

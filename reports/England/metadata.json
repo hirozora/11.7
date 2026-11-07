@@ -1,0 +1,36 @@
+{
+  "league": "England",
+  "status": "completed exploratory analysis; not a held-out model benchmark",
+  "completed_at": "2026-10-20T15:45:13+08:00",
+  "timezone": "Asia/Shanghai",
+  "manifest": "configs/manifests/England_nontest.json",
+  "test_manifest": "configs/manifests/England_test.json",
+  "analysis_config": "configs/analysis/learn_England_nontest.json",
+  "seed": 20261018,
+  "bootstrap": 10000,
+  "forward_permutations": 100,
+  "source_project": "scene_regularity_research",
+  "source_results": "results/learn5_rev5/England",
+  "source_scripts": [
+    "src/learn5_population.py",
+    "src/learn5_ladder.py"
+  ],
+  "release_scripts": [
+    "src/learn_population.py",
+    "src/learn_entities.py"
+  ],
+  "summary_verification": "per-match contributions; no refitting or permutation rerun",
+  "units": {
+    "gain": "1e-3 nats per row",
+    "log_likelihood_difference": "unscaled nats summed within match"
+  },
+  "data": {
+    "matches": 323,
+    "actions": 368732,
+    "evaluation_matches": 133,
+    "evaluation_candidate_rows": 1656101,
+    "evaluation_action_rows": 149978,
+    "candidate_rows": 4067558,
+    "test_match_overlap": 0
+  }
+}

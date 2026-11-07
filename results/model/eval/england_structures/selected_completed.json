@@ -1,0 +1,333 @@
+{
+ "m2": {
+  "ridge_scale": 1.0,
+  "validation_nll": 1.068203606699534,
+  "scores": "results/model/entity/m2_c1/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.0695211749822806,
+    "objective": 1.0563915935344994,
+    "train_nll": 1.0509174391627312,
+    "gradient_max": 8.664093911647797e-06,
+    "stopped_by": "gradient tolerance",
+    "scores": "results/model/entity/m2_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.068203606699534,
+    "objective": 1.0623755701817572,
+    "train_nll": 1.0570985972881317,
+    "gradient_max": 3.642673254944384e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.0687982091557997,
+    "objective": 1.0678988830186427,
+    "train_nll": 1.0637468099594116,
+    "gradient_max": 9.787938324734569e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_c3/scores.npz"
+   }
+  ]
+ },
+ "m2_main": {
+  "ridge_scale": 0.3333333333333333,
+  "validation_nll": 1.069180849116221,
+  "scores": "results/model/entity/m2_main_c1-3/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.069180849116221,
+    "objective": 1.0641209185123444,
+    "train_nll": 1.0601451992988586,
+    "gradient_max": 7.990992162376642e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_main_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0695250094673805,
+    "objective": 1.0686377671081573,
+    "train_nll": 1.0650876238942146,
+    "gradient_max": 0.00011812557931989431,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_main_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.071141238811634,
+    "objective": 1.0724664898589253,
+    "train_nll": 1.069975920021534,
+    "gradient_max": 0.0003614712040871382,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_main_c3/scores.npz"
+   }
+  ]
+ },
+ "m2_no_types": {
+  "ridge_scale": 1.0,
+  "validation_nll": 1.0683787189360154,
+  "scores": "results/model/entity/m2_no_types_c1/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.069699202897528,
+    "objective": 1.0564903877675533,
+    "train_nll": 1.050925761461258,
+    "gradient_max": 9.9564203992486e-06,
+    "stopped_by": "gradient tolerance",
+    "scores": "results/model/entity/m2_no_types_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0683787189360154,
+    "objective": 1.0626151766628027,
+    "train_nll": 1.0572437569499016,
+    "gradient_max": 7.773713150527328e-06,
+    "stopped_by": "gradient tolerance",
+    "scores": "results/model/entity/m2_no_types_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.0690165297914747,
+    "objective": 1.0680117970332503,
+    "train_nll": 1.0636179745197296,
+    "gradient_max": 2.4175889848265797e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_no_types_c3/scores.npz"
+   }
+  ]
+ },
+ "m2_no_opp": {
+  "ridge_scale": 1.0,
+  "validation_nll": 1.068281129452609,
+  "scores": "results/model/entity/m2_no_opp_c1/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.0694265501806446,
+    "objective": 1.0576850716024637,
+    "train_nll": 1.0527170673012733,
+    "gradient_max": 8.326489478349686e-06,
+    "stopped_by": "gradient tolerance",
+    "scores": "results/model/entity/m2_no_opp_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.068281129452609,
+    "objective": 1.06316857971251,
+    "train_nll": 1.05833450704813,
+    "gradient_max": 4.805329081136733e-05,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_no_opp_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.0690787023533987,
+    "objective": 1.0688347106333822,
+    "train_nll": 1.065026931464672,
+    "gradient_max": 0.0003100653411820531,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m2_no_opp_c3/scores.npz"
+   }
+  ]
+ },
+ "d": {
+  "ridge_scale": 3.0,
+  "validation_nll": 1.084555443763368,
+  "scores": "results/model/entity/d_c3/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.1021364844421342,
+    "objective": 1.0309684053063393,
+    "train_nll": 1.0117955058813095,
+    "gradient_max": 0.00035757164005190134,
+    "stopped_by": "round limit",
+    "scores": "results/model/entity/d_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0954826727336306,
+    "objective": 1.0371092483401299,
+    "train_nll": 1.0170396193861961,
+    "gradient_max": 0.00024947753991000354,
+    "stopped_by": "round limit",
+    "scores": "results/model/entity/d_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.084555443763368,
+    "objective": 1.0438305735588074,
+    "train_nll": 1.0220847204327583,
+    "gradient_max": 0.00020145847520325333,
+    "stopped_by": "round limit",
+    "scores": "results/model/entity/d_c3/scores.npz"
+   }
+  ]
+ },
+ "m3": {
+  "ridge_scale": 0.3333333333333333,
+  "validation_nll": 1.070092709274191,
+  "scores": "results/model/entity/m3_c1-3/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.070092709274191,
+    "objective": 1.0712535519560333,
+    "train_nll": 1.0709035620093346,
+    "gradient_max": 0.0009768750751391053,
+    "stopped_by": "round limit",
+    "scores": "results/model/entity/m3_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.07039106406692,
+    "objective": 1.0718219525006134,
+    "train_nll": 1.0715588256716728,
+    "gradient_max": 0.0011948334285989404,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m3_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.0702610590960553,
+    "objective": 1.0718263492744882,
+    "train_nll": 1.0715701654553413,
+    "gradient_max": 0.000865707581397146,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m3_c3/scores.npz"
+   }
+  ]
+ },
+ "m23": {
+  "ridge_scale": 1.0,
+  "validation_nll": 1.0680144060992667,
+  "scores": "results/model/entity/m23_c1/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.069180738859461,
+    "objective": 1.0562302065081894,
+    "train_nll": 1.0511657893657684,
+    "gradient_max": 0.0004862896748818457,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m23_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0680144060992667,
+    "objective": 1.0616875044070184,
+    "train_nll": 1.0568132027983665,
+    "gradient_max": 0.0010218421230092645,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m23_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.0682596661366501,
+    "objective": 1.0668799167033285,
+    "train_nll": 1.0632873624563217,
+    "gradient_max": 0.0008671903051435947,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m23_c3/scores.npz"
+   }
+  ]
+ },
+ "m4": {
+  "ridge_scale": 1.0,
+  "validation_nll": 1.0679904558808309,
+  "scores": "results/model/entity/m4_c1/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.0693335669796586,
+    "objective": 1.0561558324843645,
+    "train_nll": 1.0509096533060074,
+    "gradient_max": 0.000602924672421068,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0679904558808309,
+    "objective": 1.0617106081917882,
+    "train_nll": 1.0569122061133385,
+    "gradient_max": 0.000376250158296898,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.0680889764213224,
+    "objective": 1.0667587763164192,
+    "train_nll": 1.06314267963171,
+    "gradient_max": 0.00026777165476232767,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_c3/scores.npz"
+   }
+  ]
+ },
+ "m4_no_knn": {
+  "ridge_scale": 1.0,
+  "validation_nll": 1.0679785726522464,
+  "scores": "results/model/entity/m4_no_knn_c1/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.0693153868649994,
+    "objective": 1.0561922076158226,
+    "train_nll": 1.0510389432311058,
+    "gradient_max": 0.000717391085345298,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_no_knn_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0679785726522464,
+    "objective": 1.0616057286970317,
+    "train_nll": 1.0568123385310173,
+    "gradient_max": 0.0005543803563341498,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_no_knn_c1/scores.npz"
+   },
+   {
+    "ridge_scale": 3.0,
+    "validation_nll": 1.068098911780479,
+    "objective": 1.0667347111739218,
+    "train_nll": 1.063085563480854,
+    "gradient_max": 0.001101419678889215,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_no_knn_c3/scores.npz"
+   }
+  ]
+ },
+ "m4_no_id": {
+  "ridge_scale": 0.3333333333333333,
+  "validation_nll": 1.0701007335161734,
+  "scores": "results/model/entity/m4_no_id_c1-3/scores.npz",
+  "runs": [
+   {
+    "ridge_scale": 0.3333333333333333,
+    "validation_nll": 1.0701007335161734,
+    "objective": 1.0716345794207882,
+    "train_nll": 1.0712759792804718,
+    "gradient_max": 0.0024255418684333563,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_no_id_c1-3/scores.npz"
+   },
+   {
+    "ridge_scale": 1.0,
+    "validation_nll": 1.0702558280253278,
+    "objective": 1.0719290259294212,
+    "train_nll": 1.0716485679149628,
+    "gradient_max": 0.0009632644359953701,
+    "stopped_by": "no change in a round",
+    "scores": "results/model/entity/m4_no_id_c1/scores.npz"
+   }
+  ]
+ }
+}

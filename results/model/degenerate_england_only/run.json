@@ -1,0 +1,14 @@
+{
+ "max_parameter_difference": 1.2169929072478047e-07,
+ "loglik_difference_per_action": 3.0744125634739672e-15,
+ "torch_objective": 338973.53852396994,
+ "scipy_objective": 338973.538523969,
+ "targets": 302927,
+ "parameters": 18403,
+ "passed": true,
+ "model": "degenerate",
+ "lam_r": 0.0,
+ "seed": 20260715,
+ "config": "configs/model/m2_england_only.json",
+ "wall_seconds": 37.2
+}

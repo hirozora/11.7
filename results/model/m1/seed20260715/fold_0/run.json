@@ -1,0 +1,16 @@
+{
+ "config": "configs/model/m1.json",
+ "fold": "0",
+ "seed": 20260715,
+ "train_targets": 1151542,
+ "train_matches": 1017,
+ "predict_targets": 289389,
+ "validation_targets": 318858,
+ "urgency_mean": 0.004857086110860109,
+ "urgency_sd": 0.7250163555145264,
+ "parameters": 109425,
+ "steps_per_epoch": 508,
+ "best_epoch": 120,
+ "best_validation_nll": 1.080017328262329,
+ "wall_seconds": 3231.8
+}

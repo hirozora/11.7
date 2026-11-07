@@ -1,0 +1,12 @@
+{
+ "config": "configs/model/type_t0_nostart_england_only.json",
+ "seed": 20260715,
+ "type_head": "context",
+ "who_loss": false,
+ "train_targets": 302927,
+ "validation_targets": 64975,
+ "parameters": 112223,
+ "best_epoch": 120,
+ "best_validation_type_nll": 1.137373924255371,
+ "wall_seconds": 487.2
+}

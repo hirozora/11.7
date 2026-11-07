@@ -1,0 +1,21 @@
+{
+  "leagues": [
+    "England",
+    "France",
+    "Germany",
+    "Italy",
+    "Spain"
+  ],
+  "results_dirs": {
+    "England": "results/learnability/England_nontest",
+    "France": "results/learnability/France_nontest",
+    "Germany": "results/learnability/Germany_nontest",
+    "Italy": "results/learnability/Italy_nontest",
+    "Spain": "results/learnability/Spain_nontest"
+  },
+  "seed": 20261020,
+  "bootstrap": 10000,
+  "existence_results": "results/existence/pooled.json",
+  "out_json": "results/learnability/pooled.json",
+  "out_md": "results/learnability/pooled.md"
+}

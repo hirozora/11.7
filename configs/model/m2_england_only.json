@@ -1,0 +1,22 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json"
+  ],
+  "terms": "results/model/entities_england_only/terms.npz",
+  "offsets": "results/model/m1_england_only/seed20260715/offsets.npz",
+  "b0": "results/model/b0_m1_england_only/b0.npz",
+  "b0_json": "results/model/b0_m1_england_only/b0.json",
+  "b0_theta": "results/model/b0_m1_england_only/b0_theta.npz",
+  "width": 16,
+  "weight_decay": 0.0001,
+  "distill_epochs": 20,
+  "lbfgs_iterations": 3000,
+  "history": "results/model/entities_england_only/history.npz",
+  "distill_lr": 0.01,
+  "distill_batch": 16384,
+  "chunk_targets": 262144,
+  "lbfgs_rounds": 40,
+  "lbfgs_round_iterations": 50,
+  "lbfgs_history": 50,
+  "gradient_tolerance": 1e-05
+}

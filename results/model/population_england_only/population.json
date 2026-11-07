@@ -1,0 +1,44 @@
+{
+ "r1": {
+  "beta": 0.2000287419226311,
+  "nll": 720131.6971601478,
+  "iterations": 3,
+  "remaining_step": 5.190480145103042e-12,
+  "gradient_norm": 1.4818420206452743e-06,
+  "message": "A bad approximation caused failure to predict improvement."
+ },
+ "r2": {
+  "beta": 3.7681407615147156,
+  "nll": 617584.3474712609,
+  "iterations": 5,
+  "remaining_step": 4.759516867930547e-09,
+  "gradient_norm": 5.9405326514473666e-05,
+  "message": "A bad approximation caused failure to predict improvement.",
+  "median_distance_m": 32.56363296508789
+ },
+ "m0": {
+  "urgency_by_group": {
+   "GK": 0.20802847050017886,
+   "CB": 0.13702783470613633,
+   "FB": 0.08322016055843016,
+   "DM": 0.02838301983380117,
+   "WIDE": 0.03329975317411017,
+   "FW": -0.05309316229546953,
+   "unknown": 0.03248560166581546
+  },
+  "nll": 530280.4247951199,
+  "iterations": 10,
+  "remaining_step": 4.155959592181398e-08,
+  "gradient_norm": 0.0004434835394174174,
+  "message": "A bad approximation caused failure to predict improvement.",
+  "gbdt": {
+   "learning_rate": 0.1,
+   "max_iter": 200,
+   "max_leaf_nodes": 31,
+   "min_samples_leaf": 200,
+   "l2_regularization": 1.0,
+   "early_stopping": false,
+   "random_state": 20261021
+  }
+ }
+}

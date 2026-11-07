@@ -1,0 +1,2726 @@
+{
+ "tests": [
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 60.34692440525681,
+   "perm_mean": 48.132789875600395,
+   "perm_sd": 11.755284902412697,
+   "p": 0.15920398009950248,
+   "tau": 0.023814962956055185,
+   "typical_or": 1.0241008037721646,
+   "excess_by_level": {
+    "after_75": -3.6276849866929055,
+    "first_half": 8.489339305247631,
+    "second_half_to_75": 7.352480211101678
+   }
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 173.5499949902631,
+   "perm_mean": 135.97336336828735,
+   "perm_sd": 32.21219891720553,
+   "p": 0.11442786069651742,
+   "tau": 0.0417766603086323,
+   "typical_or": 1.0426615850279242,
+   "excess_by_level": {
+    "drawing": -8.777802923770857,
+    "leading": 53.2113784436684,
+    "trailing": -6.856943897921838
+   }
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 53.92876176729379,
+   "perm_mean": 108.11831741371951,
+   "perm_sd": 33.7414753012204,
+   "p": 0.9751243781094527,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -27.28697063598577,
+    "home": -26.90258501044001
+   }
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 108.53384455558256,
+   "perm_mean": 98.0417294771846,
+   "perm_sd": 33.01094577079137,
+   "p": 0.3333333333333333,
+   "tau": 0.02207168060492492,
+   "typical_or": 1.0223170621495525,
+   "excess_by_level": {
+    "big_six": 8.900217001418028,
+    "other": 1.5918980769798736
+   }
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 341.4584334236754,
+   "perm_mean": 202.2071605518605,
+   "perm_sd": 20.659620671717427,
+   "p": 0.004975124378109453,
+   "tau": 0.08053195354732545,
+   "typical_or": 1.083863479371911,
+   "excess_by_level": {
+    "clearance": 9.274588490151093,
+    "duel": -3.4946677994217534,
+    "foul": -0.10705719973217498,
+    "goalkeeper": 0.853542296512181,
+    "interception": -1.33438267906757,
+    "none": 117.63491174159637,
+    "offside": 5.204837835221454,
+    "other_on_ball": 2.5858747779083906,
+    "pass": 1.608847583432416,
+    "set_piece": 5.615629199320585,
+    "shot": 1.409148625893895
+   }
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 326.5771020005802,
+   "perm_mean": 178.17736564408165,
+   "perm_sd": 21.019147775435965,
+   "p": 0.004975124378109453,
+   "tau": 0.08341475244143784,
+   "typical_or": 1.086992547882216,
+   "excess_by_level": {
+    "after_opp_shot": 18.745413164612216,
+    "duel_won": -7.737864178638301,
+    "interception": 25.593812180284328,
+    "opp_clearance": 14.405420030154001,
+    "opp_pass_lost": 1.985973107579328,
+    "other": 3.961035017409227,
+    "period_start": 86.16332773876996,
+    "restart_foul": -3.713481462406687,
+    "restart_out": 8.996100758734553
+   }
+  },
+  {
+   "spec": "team_what|cross|time_bin",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 62.64495478560915,
+   "perm_mean": 46.39471993987544,
+   "perm_sd": 11.300049650407018,
+   "p": 0.0845771144278607,
+   "tau": 0.046685451658284485,
+   "typical_or": 1.0477923758852892,
+   "excess_by_level": {
+    "after_75": 11.412528898703197,
+    "first_half": -0.6176398339997782,
+    "second_half_to_75": 5.455345781030305
+   }
+  },
+  {
+   "spec": "team_what|cross|score_state",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 64.30208084796251,
+   "perm_mean": 57.32811539556722,
+   "perm_sd": 13.15177980277595,
+   "p": 0.3034825870646766,
+   "tau": 0.030625086781050036,
+   "typical_or": 1.0310988588196626,
+   "excess_by_level": {
+    "drawing": -3.1975122519668577,
+    "leading": 8.306484127126257,
+    "trailing": 1.8649935772358717
+   }
+  },
+  {
+   "spec": "team_what|cross|venue",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 30.233519169071997,
+   "perm_mean": 42.403374851253076,
+   "perm_sd": 13.752395743600822,
+   "p": 0.8059701492537313,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -6.9834743471761875,
+    "home": -5.18638133500489
+   }
+  },
+  {
+   "spec": "team_what|cross|opponent_class",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 24.878677419711007,
+   "perm_mean": 35.2642842266426,
+   "perm_sd": 9.904340037333967,
+   "p": 0.8557213930348259,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -7.8390811032159995,
+    "other": -2.5465257037155915
+   }
+  },
+  {
+   "spec": "team_what|cross|opp_last_event",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 171.7862279583465,
+   "perm_mean": 159.63196702117267,
+   "perm_sd": 16.133638061849187,
+   "p": 0.21393034825870647,
+   "tau": 0.04051397480661071,
+   "typical_or": 1.0413458622078722,
+   "excess_by_level": {
+    "clearance": 2.8893299032252315,
+    "duel": -2.080042370878732,
+    "foul": 4.7379847771880215,
+    "goalkeeper": -0.7549467369548957,
+    "interception": -4.83090648252197,
+    "none": -0.7573896355226845,
+    "offside": -4.023327947191226,
+    "other_on_ball": 15.24084589750144,
+    "pass": 5.910967541402279,
+    "set_piece": -6.137888863803401,
+    "shot": 1.9596348547297424
+   }
+  },
+  {
+   "spec": "team_what|cross|possession_start",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 146.47870128909472,
+   "perm_mean": 129.15535207332198,
+   "perm_sd": 15.048932725664438,
+   "p": 0.1044776119402985,
+   "tau": 0.04826406369788238,
+   "typical_or": 1.0494477397897894,
+   "excess_by_level": {
+    "after_opp_shot": 4.7390930590372236,
+    "duel_won": 7.02496769811723,
+    "interception": 0.8220437979289468,
+    "opp_clearance": 1.912147466351513,
+    "opp_pass_lost": -3.0903093118230025,
+    "other": 7.786004311476336,
+    "period_start": -0.2889304236866419,
+    "restart_foul": -3.585553167350792,
+    "restart_out": 2.0038857857218915
+   }
+  },
+  {
+   "spec": "team_what|back_pass|time_bin",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 137.01394888983128,
+   "perm_mean": 59.278535695850884,
+   "perm_sd": 12.817200913542875,
+   "p": 0.004975124378109453,
+   "tau": 0.04457180504458683,
+   "typical_or": 1.0455800519372818,
+   "excess_by_level": {
+    "after_75": 58.261500601298195,
+    "first_half": 21.516601156215675,
+    "second_half_to_75": -2.042688563533469
+   }
+  },
+  {
+   "spec": "team_what|back_pass|score_state",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 171.4825923081727,
+   "perm_mean": 93.29418989319724,
+   "perm_sd": 20.04519164665374,
+   "p": 0.009950248756218905,
+   "tau": 0.04469514559310157,
+   "typical_or": 1.0457090223078784,
+   "excess_by_level": {
+    "drawing": 20.113598099441344,
+    "leading": 57.761564558412914,
+    "trailing": 0.3132397571212664
+   }
+  },
+  {
+   "spec": "team_what|back_pass|venue",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 49.701644520660636,
+   "perm_mean": 59.652196837851605,
+   "perm_sd": 17.581363804030637,
+   "p": 0.6915422885572139,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -5.60313156352041,
+    "home": -4.347420753670569
+   }
+  },
+  {
+   "spec": "team_what|back_pass|opponent_class",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 66.90394012065894,
+   "perm_mean": 54.13608372695795,
+   "perm_sd": 16.080489747858085,
+   "p": 0.21393034825870647,
+   "tau": 0.018060268791622546,
+   "typical_or": 1.0182243416912433,
+   "excess_by_level": {
+    "big_six": 8.743856904363732,
+    "other": 4.023999489337241
+   }
+  },
+  {
+   "spec": "team_what|back_pass|opp_last_event",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 324.34803339485035,
+   "perm_mean": 205.09626883866287,
+   "perm_sd": 19.58853270165226,
+   "p": 0.004975124378109453,
+   "tau": 0.05542418957943999,
+   "typical_or": 1.0569888832632048,
+   "excess_by_level": {
+    "clearance": 11.14933536216342,
+    "duel": -3.923306668758279,
+    "foul": 0.05150860616364383,
+    "goalkeeper": 1.5491226020941014,
+    "interception": 0.699862484558178,
+    "none": 31.12285310276029,
+    "offside": 13.00419005677275,
+    "other_on_ball": -2.1776811654221895,
+    "pass": 21.311129015970316,
+    "set_piece": 15.852492885002768,
+    "shot": 30.612258274882404
+   }
+  },
+  {
+   "spec": "team_what|back_pass|possession_start",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 237.93374387374655,
+   "perm_mean": 164.1019794123239,
+   "perm_sd": 18.388857848291003,
+   "p": 0.004975124378109453,
+   "tau": 0.04361579562860876,
+   "typical_or": 1.044580945216282,
+   "excess_by_level": {
+    "after_opp_shot": 9.543218539103332,
+    "duel_won": -6.449952093063693,
+    "interception": 26.058984293386384,
+    "opp_clearance": 10.914930479461624,
+    "opp_pass_lost": 2.058365805592132,
+    "other": -1.2361387049805828,
+    "period_start": 23.405074945395995,
+    "restart_foul": 1.0881603573401648,
+    "restart_out": 8.449120839187344
+   }
+  },
+  {
+   "spec": "team_what|forward|time_bin",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 50.350545965482375,
+   "perm_mean": 43.918656837216346,
+   "perm_sd": 9.952909140756374,
+   "p": 0.22885572139303484,
+   "tau": 0.01141176349210907,
+   "typical_or": 1.0114771260625481,
+   "excess_by_level": {
+    "after_75": 6.462405934323552,
+    "first_half": 0.23136922605507593,
+    "second_half_to_75": -0.2618860321125762
+   }
+  },
+  {
+   "spec": "team_what|forward|score_state",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 90.27446639896185,
+   "perm_mean": 87.24347296716562,
+   "perm_sd": 18.95597324141932,
+   "p": 0.4228855721393035,
+   "tau": 0.007833885034790386,
+   "typical_or": 1.0078646501966,
+   "excess_by_level": {
+    "drawing": -10.277329576913912,
+    "leading": 17.06572577120103,
+    "trailing": -3.757402762490834
+   }
+  },
+  {
+   "spec": "team_what|forward|venue",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 35.92381730056227,
+   "perm_mean": 63.84329302474533,
+   "perm_sd": 19.050181741258054,
+   "p": 0.945273631840796,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -14.830280432546463,
+    "home": -13.089195291636607
+   }
+  },
+  {
+   "spec": "team_what|forward|opponent_class",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 91.60280788222256,
+   "perm_mean": 51.808492824787564,
+   "perm_sd": 16.387714571778236,
+   "p": 0.014925373134328358,
+   "tau": 0.028383659155174098,
+   "typical_or": 1.0287903135375909,
+   "excess_by_level": {
+    "big_six": 29.933072239542845,
+    "other": 9.861242817892176
+   }
+  },
+  {
+   "spec": "team_what|forward|opp_last_event",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 341.5771292956495,
+   "perm_mean": 202.65966019001505,
+   "perm_sd": 20.037823392769184,
+   "p": 0.004975124378109453,
+   "tau": 0.05312506044263447,
+   "typical_or": 1.0545615208035453,
+   "excess_by_level": {
+    "clearance": 7.876147281355259,
+    "duel": 8.717557944427707,
+    "foul": 14.7960057536221,
+    "goalkeeper": 3.6057240249386915,
+    "interception": 0.7864668760885358,
+    "none": 91.07354694473334,
+    "offside": 1.047386332125825,
+    "other_on_ball": 4.165102801097941,
+    "pass": 1.2844698869233113,
+    "set_piece": -0.5859778913107192,
+    "shot": 6.151039151632471
+   }
+  },
+  {
+   "spec": "team_what|forward|possession_start",
+   "rows": 303599,
+   "entities": 20,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 271.7484827462812,
+   "perm_mean": 163.06022607490834,
+   "perm_sd": 17.745354195862113,
+   "p": 0.004975124378109453,
+   "tau": 0.04709558314612472,
+   "typical_or": 1.0482221966668521,
+   "excess_by_level": {
+    "after_opp_shot": 18.87072592146109,
+    "duel_won": -0.8991599252784503,
+    "interception": 25.914159056266843,
+    "opp_clearance": 7.28703252202547,
+    "opp_pass_lost": 10.546697035949723,
+    "other": -9.736393108170518,
+    "period_start": 57.40630451827417,
+    "restart_foul": -4.662065928687911,
+    "restart_out": 3.9609565795324393
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 990.0269061962438,
+   "perm_mean": 965.5520424335366,
+   "perm_sd": 35.29213549815487,
+   "p": 0.23383084577114427,
+   "tau": 0.03541722031924813,
+   "typical_or": 1.0360518805342938,
+   "excess_by_level": {
+    "after_75": -51.16940684184584,
+    "first_half": 69.80276707134306,
+    "second_half_to_75": 5.841503533210471
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 1207.4397281014558,
+   "perm_mean": 1296.5868549466102,
+   "perm_sd": 43.40814326476727,
+   "p": 0.9850746268656716,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "drawing": 35.11572104155067,
+    "leading": -72.32741529074895,
+    "trailing": -51.93543259595674
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 622.6160167777914,
+   "perm_mean": 710.1500988171545,
+   "perm_sd": 39.75813232367818,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -64.1865459476852,
+    "home": -23.347536091677853
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 693.4452232101362,
+   "perm_mean": 733.4299175298713,
+   "perm_sd": 36.30019493193159,
+   "p": 0.8706467661691543,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -94.81002077982987,
+    "other": 54.825326460094345
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 2267.463049326341,
+   "perm_mean": 2223.401214991353,
+   "perm_sd": 49.90937782257557,
+   "p": 0.208955223880597,
+   "tau": 0.048607334290438516,
+   "typical_or": 1.0498080461750388,
+   "excess_by_level": {
+    "clearance": -16.633764573750113,
+    "duel": 12.981042637860241,
+    "foul": 10.460710706667157,
+    "goalkeeper": 1.4649355043983903,
+    "interception": 6.309910171039633,
+    "none": 34.4092631325224,
+    "offside": -0.681736277854192,
+    "other_on_ball": 9.50732680366417,
+    "pass": 17.742833263005764,
+    "set_piece": -25.79910222564422,
+    "shot": -5.6995848069206545
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 2334.8448607300097,
+   "perm_mean": 2431.7357635027583,
+   "perm_sd": 50.8346189833708,
+   "p": 0.9651741293532339,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "after_opp_shot": 15.227246892552415,
+    "duel_won": -30.365979911970328,
+    "interception": -33.68258250905609,
+    "opp_clearance": -21.403170119826882,
+    "opp_pass_lost": -16.0367729515728,
+    "other": 3.3522961615838085,
+    "period_start": 27.38133883984125,
+    "restart_foul": -7.550052443221418,
+    "restart_out": -33.8132267310786
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|cross|time_bin",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 623.2963229534909,
+   "perm_mean": 684.1157343973327,
+   "perm_sd": 29.084956179696317,
+   "p": 0.9800995024875622,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "after_75": 6.706977732633334,
+    "first_half": -43.33698340366928,
+    "second_half_to_75": -24.18940577280611
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|cross|score_state",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 535.3371914488896,
+   "perm_mean": 621.437427385247,
+   "perm_sd": 27.32689625032672,
+   "p": 0.9900497512437811,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "drawing": -8.807435461383506,
+    "leading": -45.42231838733687,
+    "trailing": -31.870482087637328
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|cross|venue",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 348.971415593401,
+   "perm_mean": 415.66655601941784,
+   "perm_sd": 25.44911472657038,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -40.77695573846469,
+    "home": -25.918184687552014
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|cross|opponent_class",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 355.2034658056557,
+   "perm_mean": 414.17288217808834,
+   "perm_sd": 23.072911535164568,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -60.57720276956255,
+    "other": 1.6077863971298143
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|cross|opp_last_event",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 880.4921769536719,
+   "perm_mean": 849.0950579883752,
+   "perm_sd": 29.95804959475398,
+   "p": 0.16417910447761194,
+   "tau": 0.06994968681514926,
+   "typical_or": 1.072454221309299,
+   "excess_by_level": {
+    "clearance": 22.82205980095152,
+    "duel": 27.7091922358139,
+    "foul": 6.070249010276825,
+    "goalkeeper": 5.144424604156227,
+    "interception": -33.188302360082645,
+    "none": 0.0,
+    "offside": -0.6160091722945147,
+    "other_on_ball": 9.256942490688282,
+    "pass": -8.130308670183751,
+    "set_piece": 2.474339307362393,
+    "shot": -0.1454682813913415
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|cross|possession_start",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 1163.713334574442,
+   "perm_mean": 1354.5380785039265,
+   "perm_sd": 38.38923436982807,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "after_opp_shot": 19.212359432671505,
+    "duel_won": -44.771108298780575,
+    "interception": -34.57596268408727,
+    "opp_clearance": -36.79513221575195,
+    "opp_pass_lost": -37.13920447811017,
+    "other": -39.64683752447715,
+    "period_start": -0.017144201127961924,
+    "restart_foul": -3.53407575820496,
+    "restart_out": -13.55763820161593
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|back_pass|time_bin",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 1112.4029893037387,
+   "perm_mean": 1054.5143722684807,
+   "perm_sd": 37.37577141749498,
+   "p": 0.04975124378109453,
+   "tau": 0.039028512143302115,
+   "typical_or": 1.0398001301578297,
+   "excess_by_level": {
+    "after_75": 0.6013979024614287,
+    "first_half": 42.615852355518655,
+    "second_half_to_75": 14.671366777277854
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|back_pass|score_state",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 1085.8531726448064,
+   "perm_mean": 1119.780029305159,
+   "perm_sd": 39.59508954277773,
+   "p": 0.7910447761194029,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "drawing": -8.253002196222155,
+    "leading": 8.216911544168738,
+    "trailing": -33.89076600829975
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|back_pass|venue",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 583.7199740247997,
+   "perm_mean": 611.6206021417725,
+   "perm_sd": 35.00371707134618,
+   "p": 0.7960199004975125,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -11.937301858545311,
+    "home": -15.963326258427514
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|back_pass|opponent_class",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 549.4297841648055,
+   "perm_mean": 601.6650348989238,
+   "perm_sd": 27.881818525335277,
+   "p": 0.9651741293532339,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -38.555977479478315,
+    "other": -13.679273254639838
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|back_pass|opp_last_event",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 2783.86906690107,
+   "perm_mean": 2900.1082558781254,
+   "perm_sd": 60.75996481117784,
+   "p": 0.9800995024875622,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "clearance": -50.57148221757609,
+    "duel": -19.06842297989175,
+    "foul": 15.545294227395516,
+    "goalkeeper": -1.8011789518663832,
+    "interception": -22.35877436297926,
+    "none": -3.6375460906531885,
+    "offside": 7.168831081769184,
+    "other_on_ball": -36.58022256920742,
+    "pass": 4.39912456728905,
+    "set_piece": -3.0769140219469477,
+    "shot": -6.25789765938913
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|back_pass|possession_start",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 2737.029919296667,
+   "perm_mean": 2851.0973054385895,
+   "perm_sd": 58.45889739968634,
+   "p": 0.9601990049751243,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "after_opp_shot": 14.964940689257787,
+    "duel_won": -44.73448602083994,
+    "interception": -14.581453907246441,
+    "opp_clearance": -52.648499030446146,
+    "opp_pass_lost": -13.926774338981716,
+    "other": 18.406176160171015,
+    "period_start": -15.327639065289901,
+    "restart_foul": -7.531501283521777,
+    "restart_out": 1.3118506549753874
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|forward|time_bin",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 1005.1293642542736,
+   "perm_mean": 957.5132993130459,
+   "perm_sd": 34.16343582998299,
+   "p": 0.08955223880597014,
+   "tau": 0.03214747018929536,
+   "typical_or": 1.0326697820849433,
+   "excess_by_level": {
+    "after_75": -3.0192948828631074,
+    "first_half": 14.21118778022202,
+    "second_half_to_75": 36.42417204386908
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|forward|score_state",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 1056.7027775377271,
+   "perm_mean": 1120.2816887828594,
+   "perm_sd": 38.29251237956177,
+   "p": 0.945273631840796,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "drawing": -10.884841367719332,
+    "leading": -46.73551428067094,
+    "trailing": -5.9585555967420305
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|forward|venue",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 534.9899119512046,
+   "perm_mean": 610.1654093689034,
+   "perm_sd": 33.213055977539746,
+   "p": 0.9800995024875622,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -39.9497292500846,
+    "home": -35.225768167614035
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|forward|opponent_class",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 548.9413998560078,
+   "perm_mean": 606.5652349695092,
+   "perm_sd": 29.72284770396856,
+   "p": 0.9751243781094527,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -53.1704553526705,
+    "other": -4.453379760830643
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|forward|opp_last_event",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 2982.088710711278,
+   "perm_mean": 3066.6892666419258,
+   "perm_sd": 58.84985423146509,
+   "p": 0.945273631840796,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "clearance": -53.938950075588906,
+    "duel": -11.41895800453085,
+    "foul": -30.761631887482565,
+    "goalkeeper": -1.8222359622289304,
+    "interception": 2.724163877247179,
+    "none": 43.281616973909564,
+    "offside": -10.253593759963039,
+    "other_on_ball": -5.447041150289067,
+    "pass": 11.630548356255588,
+    "set_piece": -12.28584899183295,
+    "shot": -16.30862530614445
+   }
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|forward|possession_start",
+   "rows": 302045,
+   "entities": 477,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 2975.531831288108,
+   "perm_mean": 3065.1202987499046,
+   "perm_sd": 61.470041492216424,
+   "p": 0.9303482587064676,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "after_opp_shot": 8.158248525217346,
+    "duel_won": -29.120026746101985,
+    "interception": -12.720833731827668,
+    "opp_clearance": -24.628238616749343,
+    "opp_pass_lost": 21.431217883450472,
+    "other": -16.2875983445378,
+    "period_start": 23.91725695390562,
+    "restart_foul": -43.53358864712851,
+    "restart_out": -16.804904738024675
+   }
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "rows": 3311250,
+   "entities": 20,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 1403.609371278884,
+   "perm_mean": 1198.083116558297,
+   "perm_sd": 56.80662358249689,
+   "p": 0.004975124378109453,
+   "tau": 0.028860848020696155,
+   "typical_or": 1.0292813579713183,
+   "excess_by_level": {
+    "after_75": 31.847275925523206,
+    "first_half": 102.35703661139473,
+    "second_half_to_75": 71.32194218366908
+   }
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "rows": 3311250,
+   "entities": 20,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 1774.3563532310022,
+   "perm_mean": 1856.6591530352132,
+   "perm_sd": 101.4859229684371,
+   "p": 0.7910447761194029,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "drawing": -34.75777095314146,
+    "leading": -48.05585568336414,
+    "trailing": 0.5108268322954927
+   }
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "rows": 3311250,
+   "entities": 20,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 875.7233375459167,
+   "perm_mean": 1307.3499291581365,
+   "perm_sd": 101.9303536947667,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -215.38666404682488,
+    "home": -216.23992756539525
+   }
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "rows": 3311250,
+   "entities": 20,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 1042.3402571367947,
+   "perm_mean": 1077.7512697969316,
+   "perm_sd": 85.52490294570136,
+   "p": 0.6368159203980099,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -41.601839792448004,
+    "other": 6.1908271323106305
+   }
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "rows": 3311250,
+   "entities": 20,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 4413.159540283593,
+   "perm_mean": 3664.449304392295,
+   "perm_sd": 83.88368076855322,
+   "p": 0.004975124378109453,
+   "tau": 0.05525286668957719,
+   "typical_or": 1.0568078123844074,
+   "excess_by_level": {
+    "clearance": 68.43583972677749,
+    "duel": 67.23610390163878,
+    "foul": 75.03004796755118,
+    "goalkeeper": -24.27741748275497,
+    "interception": 87.94310983427005,
+    "none": 284.13924703610957,
+    "offside": 11.09494851411472,
+    "other_on_ball": -2.6459588611107847,
+    "pass": 31.443035559768077,
+    "set_piece": 35.05204550764313,
+    "shot": 115.2592341872907
+   }
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "rows": 3311250,
+   "entities": 20,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 4248.1654274910525,
+   "perm_mean": 3383.0751769218805,
+   "perm_sd": 80.73882517803828,
+   "p": 0.004975124378109453,
+   "tau": 0.05941417861812419,
+   "typical_or": 1.0612146821608472,
+   "excess_by_level": {
+    "after_opp_shot": 67.65558986393631,
+    "duel_won": -1.2825670161055314,
+    "interception": 118.51523846122848,
+    "opp_clearance": 163.25819169034918,
+    "opp_pass_lost": 36.92364593277864,
+    "other": 21.054312452562442,
+    "period_start": 291.6297493738339,
+    "restart_foul": 33.71505127334245,
+    "restart_out": 133.62103853724733
+   }
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "rows": 3311250,
+   "entities": 477,
+   "levels": [
+    "after_75",
+    "first_half",
+    "second_half_to_75"
+   ],
+   "T": 1514.7716924508231,
+   "perm_mean": 1501.7326132027374,
+   "perm_sd": 51.40004833436898,
+   "p": 0.42786069651741293,
+   "tau": 0.007320706714783979,
+   "typical_or": 1.0073475685974993,
+   "excess_by_level": {
+    "after_75": -28.1128401895852,
+    "first_half": 19.250303943580946,
+    "second_half_to_75": 21.901615494090663
+   }
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "rows": 3311250,
+   "entities": 477,
+   "levels": [
+    "drawing",
+    "leading",
+    "trailing"
+   ],
+   "T": 2031.454790294562,
+   "perm_mean": 2094.7534722976475,
+   "perm_sd": 74.28653280914567,
+   "p": 0.8208955223880597,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "drawing": -47.27716045369499,
+    "leading": 10.624115643608206,
+    "trailing": -26.645637192999175
+   }
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "rows": 3311250,
+   "entities": 477,
+   "levels": [
+    "away",
+    "home"
+   ],
+   "T": 909.2534698677966,
+   "perm_mean": 1281.5006990494135,
+   "perm_sd": 85.84566678889824,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "away": -191.38143735351076,
+    "home": -180.86579182810607
+   }
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "rows": 3311250,
+   "entities": 477,
+   "levels": [
+    "big_six",
+    "other"
+   ],
+   "T": 912.4731125936651,
+   "perm_mean": 1078.7321134011522,
+   "perm_sd": 57.7185417742609,
+   "p": 1.0,
+   "tau": 0.0,
+   "typical_or": 1.0,
+   "excess_by_level": {
+    "big_six": -134.54033247660448,
+    "other": -31.718668330882167
+   }
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "rows": 3311250,
+   "entities": 477,
+   "levels": [
+    "clearance",
+    "duel",
+    "foul",
+    "goalkeeper",
+    "interception",
+    "none",
+    "offside",
+    "other_on_ball",
+    "pass",
+    "set_piece",
+    "shot"
+   ],
+   "T": 5779.923098208726,
+   "perm_mean": 4696.529041593939,
+   "perm_sd": 70.96644971366122,
+   "p": 0.004975124378109453,
+   "tau": 0.06694374137590921,
+   "typical_or": 1.0692353227743976,
+   "excess_by_level": {
+    "clearance": 54.79246221573936,
+    "duel": 215.1765477540306,
+    "foul": 116.95453711357527,
+    "goalkeeper": -30.12640532665023,
+    "interception": 201.08656726442695,
+    "none": 335.42997761034485,
+    "offside": -2.624047969544961,
+    "other_on_ball": -8.899158406650827,
+    "pass": 81.12362039780794,
+    "set_piece": 96.02618517464794,
+    "shot": 24.453770787059796
+   }
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "rows": 3311250,
+   "entities": 477,
+   "levels": [
+    "after_opp_shot",
+    "duel_won",
+    "interception",
+    "opp_clearance",
+    "opp_pass_lost",
+    "other",
+    "period_start",
+    "restart_foul",
+    "restart_out"
+   ],
+   "T": 5570.473712735198,
+   "perm_mean": 4596.779821859122,
+   "perm_sd": 92.9309144923474,
+   "p": 0.004975124378109453,
+   "tau": 0.06348866514173854,
+   "typical_or": 1.065547407904177,
+   "excess_by_level": {
+    "after_opp_shot": 6.570171383741354,
+    "duel_won": 57.74714184300825,
+    "interception": 100.55945088468661,
+    "opp_clearance": 131.15854995581935,
+    "opp_pass_lost": 70.52699454969604,
+    "other": 34.89303946665956,
+    "period_start": 312.12453095220405,
+    "restart_foul": 62.59910096576556,
+    "restart_out": 197.51491087449745
+   }
+  }
+ ],
+ "floor": [
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|time_bin",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|time_bin",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|time_bin",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|time_bin",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.9,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|score_state",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|score_state",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|score_state",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.7,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|score_state",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.8,
+   "power_05": 0.85
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|venue",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|venue",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|venue",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.8,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|venue",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.55,
+   "power_05": 0.65
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opponent_class",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opponent_class",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opponent_class",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.7,
+   "power_05": 0.95
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opponent_class",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|opp_last_event",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|opp_last_event",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|opp_last_event",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.6,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|opp_last_event",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_what|long_pass|possession_start",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "team_who|actor|possession_start",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_who[team_role_era_opp]|actor|possession_start",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "tau": 0.1,
+   "odds_ratio": 1.1051709180756477,
+   "power_01": 0.6,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "tau": 0.2,
+   "odds_ratio": 1.2214027581601699,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "tau": 0.3,
+   "odds_ratio": 1.3498588075760032,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "tau": 0.405,
+   "odds_ratio": 1.4993025000567668,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "tau": 0.5,
+   "odds_ratio": 1.6487212707001282,
+   "power_01": 1.0,
+   "power_05": 1.0
+  },
+  {
+   "spec": "player_what[team_role_era_opp]|long_pass|possession_start",
+   "tau": 0.7,
+   "odds_ratio": 2.0137527074704766,
+   "power_01": 1.0,
+   "power_05": 1.0
+  }
+ ],
+ "population": [
+  {
+   "role": "backmid/centre",
+   "opportunities": 243222,
+   "rate": 0.11620659315357985,
+   "steps_0": 0.12281156308990636,
+   "steps_1": 0.12257060154216633,
+   "steps_2": 0.10972258571054698,
+   "steps_3-5": 0.11142872456362889,
+   "steps_6+": 0.11372204888195528
+  },
+  {
+   "role": "backmid/halfR",
+   "opportunities": 70114,
+   "rate": 0.11263085831645606,
+   "steps_0": 0.11901369184065423,
+   "steps_1": 0.112357669122572,
+   "steps_2": 0.10222121486854034,
+   "steps_3-5": 0.10679066283859692,
+   "steps_6+": 0.11761624861781994
+  },
+  {
+   "role": "backmid/halfL",
+   "opportunities": 64723,
+   "rate": 0.10881757644114148,
+   "steps_0": 0.11714384270438082,
+   "steps_1": 0.11293445192219047,
+   "steps_2": 0.10056762092793682,
+   "steps_3-5": 0.1060514877967235,
+   "steps_6+": 0.10531797573826737
+  },
+  {
+   "role": "mid/centre",
+   "opportunities": 214957,
+   "rate": 0.1061654191303377,
+   "steps_0": 0.09530641086034859,
+   "steps_1": 0.11705283187821805,
+   "steps_2": 0.11176054502810767,
+   "steps_3-5": 0.10618285019258059,
+   "steps_6+": 0.10557804289163471
+  },
+  {
+   "role": "front/wideL",
+   "opportunities": 51652,
+   "rate": 0.10365523116239449,
+   "steps_0": 0.0691498685363716,
+   "steps_1": 0.10771337288909173,
+   "steps_2": 0.11649154865235267,
+   "steps_3-5": 0.12278620455893569,
+   "steps_6+": 0.10732265446224257
+  },
+  {
+   "role": "mid/halfR",
+   "opportunities": 145193,
+   "rate": 0.10354493673937448,
+   "steps_0": 0.08645765497565665,
+   "steps_1": 0.11448693800671526,
+   "steps_2": 0.10524573887142148,
+   "steps_3-5": 0.10626294151186869,
+   "steps_6+": 0.10792511868795857
+  },
+  {
+   "role": "mid/halfL",
+   "opportunities": 141196,
+   "rate": 0.10290659792062098,
+   "steps_0": 0.0865816130273112,
+   "steps_1": 0.10727334522899142,
+   "steps_2": 0.10783304745568896,
+   "steps_3-5": 0.1096560478003777,
+   "steps_6+": 0.10569659949278722
+  },
+  {
+   "role": "backmid/wideR",
+   "opportunities": 173529,
+   "rate": 0.09861752214327288,
+   "steps_0": 0.11430975572441227,
+   "steps_1": 0.07668597364766454,
+   "steps_2": 0.10034712706677629,
+   "steps_3-5": 0.09680829641562626,
+   "steps_6+": 0.10014826483806699
+  },
+  {
+   "role": "mid/wideR",
+   "opportunities": 117249,
+   "rate": 0.09812450426016427,
+   "steps_0": 0.10006066734074823,
+   "steps_1": 0.08517382944447331,
+   "steps_2": 0.1052087639520463,
+   "steps_3-5": 0.10131400753998755,
+   "steps_6+": 0.09848629396425619
+  },
+  {
+   "role": "mid/wideL",
+   "opportunities": 134432,
+   "rate": 0.09811651987621994,
+   "steps_0": 0.0943659029180305,
+   "steps_1": 0.0830318459958015,
+   "steps_2": 0.1061936402467964,
+   "steps_3-5": 0.10587710351861296,
+   "steps_6+": 0.09999145128658136
+  },
+  {
+   "role": "deep/halfL",
+   "opportunities": 273956,
+   "rate": 0.09803399085984611,
+   "steps_0": 0.1324677445696554,
+   "steps_1": 0.07751035196687371,
+   "steps_2": 0.07828985507246376,
+   "steps_3-5": 0.08812455318134879,
+   "steps_6+": 0.1001842903370917
+  },
+  {
+   "role": "backmid/wideL",
+   "opportunities": 155673,
+   "rate": 0.09773049918739923,
+   "steps_0": 0.11281344877993928,
+   "steps_1": 0.07912268882401377,
+   "steps_2": 0.10110471923840554,
+   "steps_3-5": 0.09603069371173865,
+   "steps_6+": 0.09654506045491343
+  },
+  {
+   "role": "deep/halfR",
+   "opportunities": 269114,
+   "rate": 0.09624174141813506,
+   "steps_0": 0.12996534926932155,
+   "steps_1": 0.07577930243332083,
+   "steps_2": 0.07654284445759953,
+   "steps_3-5": 0.08559272680212243,
+   "steps_6+": 0.0997004894440792
+  },
+  {
+   "role": "deep/wideR",
+   "opportunities": 41285,
+   "rate": 0.09570061765774494,
+   "steps_0": 0.12308140664464737,
+   "steps_1": 0.07211473413611148,
+   "steps_2": 0.08678463855421686,
+   "steps_3-5": 0.08653326122228232,
+   "steps_6+": 0.09841866637177928
+  },
+  {
+   "role": "deep/wideL",
+   "opportunities": 35275,
+   "rate": 0.09559177888022678,
+   "steps_0": 0.1277791351087222,
+   "steps_1": 0.0777262180974478,
+   "steps_2": 0.08806437192668753,
+   "steps_3-5": 0.08801986343885786,
+   "steps_6+": 0.08843537414965986
+  },
+  {
+   "role": "front/wideR",
+   "opportunities": 33644,
+   "rate": 0.09362739270003567,
+   "steps_0": 0.06643081761006289,
+   "steps_1": 0.0984083518740373,
+   "steps_2": 0.10208871157005397,
+   "steps_3-5": 0.1101275709450664,
+   "steps_6+": 0.09567225869195235
+  },
+  {
+   "role": "deep/centre",
+   "opportunities": 107271,
+   "rate": 0.09150655815644489,
+   "steps_0": 0.13038650437753577,
+   "steps_1": 0.07468623935454953,
+   "steps_2": 0.07416267942583732,
+   "steps_3-5": 0.0794424525641542,
+   "steps_6+": 0.08867632780754432
+  },
+  {
+   "role": "front/halfR",
+   "opportunities": 190452,
+   "rate": 0.09116732825068784,
+   "steps_0": 0.06031798065890837,
+   "steps_1": 0.10078120156240312,
+   "steps_2": 0.1040286630837812,
+   "steps_3-5": 0.10273171403013831,
+   "steps_6+": 0.0952281507779054
+  },
+  {
+   "role": "front/halfL",
+   "opportunities": 208884,
+   "rate": 0.08865207483579403,
+   "steps_0": 0.056805125939019,
+   "steps_1": 0.09872034507548526,
+   "steps_2": 0.09904484253327707,
+   "steps_3-5": 0.10209402416818407,
+   "steps_6+": 0.0917872621758613
+  },
+  {
+   "role": "front/centre",
+   "opportunities": 337257,
+   "rate": 0.07701841622264327,
+   "steps_0": 0.04775284748968599,
+   "steps_1": 0.09464266657180463,
+   "steps_2": 0.09253504756031027,
+   "steps_3-5": 0.08409134278989887,
+   "steps_6+": 0.0762649746890533
+  },
+  {
+   "role": "GK",
+   "opportunities": 302172,
+   "rate": 0.030373429702288762,
+   "steps_0": 0.028550523376487627,
+   "steps_1": 0.058712530712530714,
+   "steps_2": 0.031999366871554066,
+   "steps_3-5": 0.024004717523875275,
+   "steps_6+": 0.018168103728557865
+  }
+ ]
+}

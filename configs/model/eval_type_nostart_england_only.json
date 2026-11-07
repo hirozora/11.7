@@ -1,0 +1,63 @@
+{
+ "title": "起点未知粗测：类型预测与执行者信息（英超单独训练，英超验证期）",
+ "scopes": [
+  "configs/model/England_nontest.json"
+ ],
+ "models": {
+  "起点未知：只用情境": {
+   "predictions": "results/model/type_nostart_england_only/t0/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "起点未知：候选人汇总+执行者损失": {
+   "predictions": "results/model/type_nostart_england_only/t1w/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "起点未知：按预测执行者分布加权": {
+   "predictions": "results/model/type_nostart_england_only/t2/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "起点未知：真实执行者（上限诊断）": {
+   "predictions": "results/model/type_nostart_england_only/t2/predictions.npz",
+   "array": "type_log_probs_true_actor"
+  },
+  "已知起点：只用情境": {
+   "predictions": "results/model/type_england_only/t0/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "已知起点：真实执行者（上限诊断）": {
+   "predictions": "results/model/type_england_only/t2/predictions.npz",
+   "array": "type_log_probs_true_actor"
+  }
+ },
+ "comparisons": [
+  [
+   "起点未知：候选人汇总+执行者损失",
+   "起点未知：只用情境",
+   "起点未知：候选人汇总+执行者监督"
+  ],
+  [
+   "起点未知：按预测执行者分布加权",
+   "起点未知：只用情境",
+   "起点未知：按执行者加权"
+  ],
+  [
+   "起点未知：真实执行者（上限诊断）",
+   "起点未知：只用情境",
+   "起点未知：上限"
+  ],
+  [
+   "已知起点：真实执行者（上限诊断）",
+   "已知起点：只用情境",
+   "已知起点：上限"
+  ],
+  [
+   "已知起点：只用情境",
+   "起点未知：只用情境",
+   "起点本身的信息"
+  ]
+ ],
+ "bootstrap": 10000,
+ "seed": 20261026,
+ "out_json": "results/model/type_nostart_england_only/eval.json",
+ "out_md": "results/model/type_nostart_england_only/eval.md"
+}

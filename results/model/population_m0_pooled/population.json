@@ -1,0 +1,47 @@
+{
+ "r1": {
+  "beta": 0.19738657621718433,
+  "nll": 3423802.4348462196,
+  "iterations": 3,
+  "newton_steps": 0,
+  "remaining_step": 4.7851626969778e-12,
+  "gradient_norm": 6.489006426135813e-06,
+  "message": "A bad approximation caused failure to predict improvement."
+ },
+ "r2": {
+  "beta": 3.831341586797983,
+  "nll": 2925717.979933638,
+  "iterations": 5,
+  "newton_steps": 0,
+  "remaining_step": 8.97235507185303e-09,
+  "gradient_norm": 0.0005226479407446777,
+  "message": "A bad approximation caused failure to predict improvement.",
+  "median_distance_m": 32.48296356201172
+ },
+ "m0": {
+  "urgency_by_group": {
+   "GK": 0.19963699024268972,
+   "CB": 0.15064669499685002,
+   "FB": 0.07540558081394318,
+   "DM": 0.040095692210672704,
+   "WIDE": 0.026346842101323674,
+   "FW": -0.06383000383592088,
+   "unknown": 0.03575977605671907
+  },
+  "nll": 2038455.0052018266,
+  "iterations": 23,
+  "newton_steps": 0,
+  "remaining_step": 6.762275926946866e-08,
+  "gradient_norm": 0.001829792497491389,
+  "message": "A bad approximation caused failure to predict improvement.",
+  "gbdt": {
+   "learning_rate": 0.1,
+   "max_iter": 200,
+   "max_leaf_nodes": 31,
+   "min_samples_leaf": 200,
+   "l2_regularization": 1.0,
+   "early_stopping": false,
+   "random_state": 20261021
+  }
+ }
+}

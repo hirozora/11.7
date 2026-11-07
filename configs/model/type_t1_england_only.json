@@ -1,0 +1,32 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json"
+  ],
+  "folds": 5,
+  "fold_seed": 20261021,
+  "model": {
+    "hidden": 64,
+    "layers": 2,
+    "heads": 4,
+    "ffn": 128,
+    "bias_hidden": 16,
+    "dropout": 0.1,
+    "history_inputs": false,
+    "provider_role": true,
+    "target_start": true
+  },
+  "lr": 0.0027,
+  "weight_decay": 0.0001,
+  "clip": 5.0,
+  "epochs": 120,
+  "milestones": [
+    96,
+    108
+  ],
+  "factor": 0.3,
+  "batch": 256,
+  "targets_per_match": 128,
+  "validate_every": 4,
+  "type_head": "pooled",
+  "who_loss": false
+}

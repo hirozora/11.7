@@ -1,0 +1,458 @@
+[
+  {
+    "match_id": 2499981,
+    "events": 1703,
+    "graph": "England/2499981.pt",
+    "kickoff": 1518350400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499983,
+    "events": 1803,
+    "graph": "England/2499983.pt",
+    "kickoff": 1518358500.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499984,
+    "events": 1826,
+    "graph": "England/2499984.pt",
+    "kickoff": 1518366600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499979,
+    "events": 1804,
+    "graph": "England/2499979.pt",
+    "kickoff": 1518465600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499994,
+    "events": 1677,
+    "graph": "England/2499994.pt",
+    "kickoff": 1519475400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499989,
+    "events": 1819,
+    "graph": "England/2499989.pt",
+    "kickoff": 1519484400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499991,
+    "events": 1555,
+    "graph": "England/2499991.pt",
+    "kickoff": 1519484400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499992,
+    "events": 1771,
+    "graph": "England/2499992.pt",
+    "kickoff": 1519484400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499995,
+    "events": 1754,
+    "graph": "England/2499995.pt",
+    "kickoff": 1519484400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499998,
+    "events": 1679,
+    "graph": "England/2499998.pt",
+    "kickoff": 1519484400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499997,
+    "events": 1702,
+    "graph": "England/2499997.pt",
+    "kickoff": 1519493400.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499993,
+    "events": 1705,
+    "graph": "England/2499993.pt",
+    "kickoff": 1519560000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499996,
+    "events": 1778,
+    "graph": "England/2499996.pt",
+    "kickoff": 1519567500.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499990,
+    "events": 1943,
+    "graph": "England/2499990.pt",
+    "kickoff": 1519933500.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500000,
+    "events": 1712,
+    "graph": "England/2500000.pt",
+    "kickoff": 1520080200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500002,
+    "events": 1711,
+    "graph": "England/2500002.pt",
+    "kickoff": 1520089200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500005,
+    "events": 1502,
+    "graph": "England/2500005.pt",
+    "kickoff": 1520089200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500006,
+    "events": 1686,
+    "graph": "England/2500006.pt",
+    "kickoff": 1520089200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500007,
+    "events": 1832,
+    "graph": "England/2500007.pt",
+    "kickoff": 1520089200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500008,
+    "events": 1640,
+    "graph": "England/2500008.pt",
+    "kickoff": 1520089200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500003,
+    "events": 1827,
+    "graph": "England/2500003.pt",
+    "kickoff": 1520098200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499999,
+    "events": 1682,
+    "graph": "England/2499999.pt",
+    "kickoff": 1520170200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500004,
+    "events": 1949,
+    "graph": "England/2500004.pt",
+    "kickoff": 1520179200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500001,
+    "events": 1735,
+    "graph": "England/2500001.pt",
+    "kickoff": 1520280000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500014,
+    "events": 1650,
+    "graph": "England/2500014.pt",
+    "kickoff": 1520685000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500012,
+    "events": 1562,
+    "graph": "England/2500012.pt",
+    "kickoff": 1520694000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500013,
+    "events": 1601,
+    "graph": "England/2500013.pt",
+    "kickoff": 1520694000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500015,
+    "events": 1643,
+    "graph": "England/2500015.pt",
+    "kickoff": 1520694000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500017,
+    "events": 1629,
+    "graph": "England/2500017.pt",
+    "kickoff": 1520694000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500018,
+    "events": 1495,
+    "graph": "England/2500018.pt",
+    "kickoff": 1520694000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500011,
+    "events": 1848,
+    "graph": "England/2500011.pt",
+    "kickoff": 1520703000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500010,
+    "events": 1537,
+    "graph": "England/2500010.pt",
+    "kickoff": 1520775000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500009,
+    "events": 1712,
+    "graph": "England/2500009.pt",
+    "kickoff": 1520784000.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500016,
+    "events": 1732,
+    "graph": "England/2500016.pt",
+    "kickoff": 1520884800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500019,
+    "events": 1707,
+    "graph": "England/2500019.pt",
+    "kickoff": 1521295200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500025,
+    "events": 1504,
+    "graph": "England/2500025.pt",
+    "kickoff": 1521295200.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500021,
+    "events": 1784,
+    "graph": "England/2500021.pt",
+    "kickoff": 1521298800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500023,
+    "events": 1677,
+    "graph": "England/2500023.pt",
+    "kickoff": 1521307800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500032,
+    "events": 1823,
+    "graph": "England/2500032.pt",
+    "kickoff": 1522495800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2499738,
+    "events": 1595,
+    "graph": "England/2499738.pt",
+    "kickoff": 1522504800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500030,
+    "events": 1668,
+    "graph": "England/2500030.pt",
+    "kickoff": 1522504800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500034,
+    "events": 1763,
+    "graph": "England/2500034.pt",
+    "kickoff": 1522504800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500035,
+    "events": 1723,
+    "graph": "England/2500035.pt",
+    "kickoff": 1522504800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500037,
+    "events": 1661,
+    "graph": "England/2500037.pt",
+    "kickoff": 1522504800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500038,
+    "events": 1689,
+    "graph": "England/2500038.pt",
+    "kickoff": 1522504800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500033,
+    "events": 1789,
+    "graph": "England/2500033.pt",
+    "kickoff": 1522513800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500029,
+    "events": 1656,
+    "graph": "England/2500029.pt",
+    "kickoff": 1522585800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500031,
+    "events": 1815,
+    "graph": "England/2500031.pt",
+    "kickoff": 1522594800.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500043,
+    "events": 1735,
+    "graph": "England/2500043.pt",
+    "kickoff": 1523100600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500039,
+    "events": 1699,
+    "graph": "England/2500039.pt",
+    "kickoff": 1523109600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500041,
+    "events": 1756,
+    "graph": "England/2500041.pt",
+    "kickoff": 1523109600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500044,
+    "events": 1565,
+    "graph": "England/2500044.pt",
+    "kickoff": 1523109600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500046,
+    "events": 1613,
+    "graph": "England/2500046.pt",
+    "kickoff": 1523109600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500047,
+    "events": 1442,
+    "graph": "England/2500047.pt",
+    "kickoff": 1523109600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500048,
+    "events": 1657,
+    "graph": "England/2500048.pt",
+    "kickoff": 1523109600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500045,
+    "events": 1613,
+    "graph": "England/2500045.pt",
+    "kickoff": 1523118600.0,
+    "league": "England",
+    "split": "validation"
+  },
+  {
+    "match_id": 2500040,
+    "events": 1810,
+    "graph": "England/2500040.pt",
+    "kickoff": 1523193300.0,
+    "league": "England",
+    "split": "validation"
+  }
+]

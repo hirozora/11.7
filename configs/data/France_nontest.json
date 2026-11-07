@@ -1,0 +1,53 @@
+{
+  "raw_dir": "data/raw",
+  "league": "France",
+  "train_manifest": "configs/manifests/France_nontest.json",
+  "manifest_split": "nontest",
+  "actions_path": "data/processed/France_nontest/actions.parquet",
+  "onpitch_path": "data/processed/France_nontest/onpitch.parquet",
+  "player_match_path": "data/processed/France_nontest/player_match.parquet",
+  "build_summary_path": "data/processed/France_nontest/summary.json",
+  "big_six": [
+    "Monaco",
+    "PSG",
+    "Nice",
+    "Olympique Lyonnais",
+    "Olympique Marseille",
+    "Bordeaux"
+  ],
+  "goal_overrides": [],
+  "position_overrides": [],
+  "onpitch_tolerance_minutes": 1.0,
+  "fine_role_min_events": 10,
+  "variables_all": [
+    "phase",
+    "prev_event",
+    "time_bin",
+    "score_state",
+    "venue",
+    "opponent_class",
+    "opp_last_event",
+    "possession_start",
+    "steps_since_change"
+  ],
+  "momentum_minutes": 5.0,
+  "since_cap": 200,
+  "back_pass_dx": 5.0,
+  "forward_dx": 15.0,
+  "high_regain_x": 50.0,
+  "coinciding_path": "data/processed/France_nontest/coinciding.parquet",
+  "coincide_seconds": 2.0,
+  "coincide_tolerance": 5.0,
+  "exclude_own_in_possession_start": false,
+  "first_action_interception": true,
+  "who_path": "data/processed/France_nontest/candidates.npz",
+  "causal_counts_path": "data/processed/France_nontest/candidate_counts.json",
+  "card_overrides": [
+    {
+      "match_id": 2500725,
+      "player_id": 25562,
+      "event_id": 182253612,
+      "reason": "Toulouse - Rennes 2017-08-26: red card at 70' in the match data (yellow at 25'); the dismissal event (foul, protest, 69.2') is tagged 1702 (yellow) instead of 1703 (second yellow)"
+    }
+  ]
+}

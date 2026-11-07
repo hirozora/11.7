@@ -1,0 +1,55 @@
+{
+ "families": {
+  "main": [
+   "R3-P",
+   "P1",
+   "T1",
+   "T2a",
+   "I1a",
+   "R3-Eb",
+   "TY3a",
+   "TY4",
+   "P3prime",
+   "T4prime"
+  ],
+  "second": [
+   "R1-Pa",
+   "R1-Pb",
+   "R1-Pc",
+   "R2-Pb",
+   "R4-P",
+   "R5-P",
+   "P2",
+   "R3-Ea",
+   "R4-Ea",
+   "R4-Eb",
+   "T2c",
+   "T2d",
+   "I1b",
+   "I2a",
+   "I2c",
+   "TY3b",
+   "C1",
+   "C2"
+  ]
+ },
+ "secondary": [
+  "R2-Pa",
+  "R1-Ea",
+  "R1-Eb",
+  "R1-Ec",
+  "R1-Ed",
+  "R2-Ea",
+  "R2-Eb",
+  "R5-E",
+  "T2b",
+  "T3",
+  "I2b",
+  "TY1",
+  "TY2",
+  "T5",
+  "B"
+ ],
+ "family_alpha": 0.05,
+ "min_consistent": 3
+}

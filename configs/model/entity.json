@@ -1,0 +1,26 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json",
+    "configs/model/France_nontest.json",
+    "configs/model/Germany_nontest.json",
+    "configs/model/Italy_nontest.json",
+    "configs/model/Spain_nontest.json"
+  ],
+  "terms": "results/model/entities/terms.npz",
+  "offsets": "results/model/m1/seed20260715/offsets.npz",
+  "history": "results/model/entities/history.npz",
+  "b0": "results/model/b0_m1/b0.npz",
+  "b0_json": "results/model/b0_m1/b0.json",
+  "b0_theta": "results/model/b0_m1/b0_theta.npz",
+  "width": 16,
+  "weight_decay": 0.0001,
+  "distill_epochs": 20,
+  "lbfgs_iterations": 3000,
+  "distill_lr": 0.01,
+  "distill_batch": 16384,
+  "chunk_targets": 262144,
+  "lbfgs_rounds": 40,
+  "lbfgs_round_iterations": 50,
+  "lbfgs_history": 50,
+  "gradient_tolerance": 1e-05
+}

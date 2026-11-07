@@ -1,0 +1,16 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json"
+  ],
+  "terms": "results/model/entities_england_only/terms.npz",
+  "lambda_grid": [
+    10,
+    100,
+    1000,
+    10000,
+    100000
+  ],
+  "workers": 10,
+  "offsets": "results/model/m1_england_only/seed20260715/offsets.npz",
+  "out_dir": "results/model/b0_m1_england_only"
+}

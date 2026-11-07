@@ -1,0 +1,8 @@
+{
+  "data_config": "configs/data/England_nontest.json",
+  "train_manifest": "configs/manifests/England_model_train.json",
+  "validation_manifest": "configs/manifests/England_model_validation.json",
+  "test_manifest": "configs/manifests/England_test.json",
+  "out_dir": "data/processed/England_nontest/model",
+  "window_events": 32
+}

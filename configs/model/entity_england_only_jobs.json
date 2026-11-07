@@ -1,0 +1,47 @@
+[
+ {
+  "name": "m2_c1-3",
+  "args": [
+   "--config",
+   "configs/model/m2_england_only.json",
+   "--model",
+   "m2",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity_england_only/m2_c1-3"
+  ]
+ },
+ {
+  "name": "m2_c1",
+  "args": [
+   "--config",
+   "configs/model/m2_england_only.json",
+   "--model",
+   "m2",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity_england_only/m2_c1"
+  ]
+ },
+ {
+  "name": "m2_c3",
+  "args": [
+   "--config",
+   "configs/model/m2_england_only.json",
+   "--model",
+   "m2",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity_england_only/m2_c3"
+  ]
+ }
+]

@@ -1,0 +1,144 @@
+{
+ "title": "开发期评估（五联赛验证期，使用已完成运行的选择）",
+ "note": "A3 and A6 are read in the candidate-level cold-start column; the dev split has no common calendar cutoff (docs/MODEL_PLAN.md, note 13), so these numbers support choices only",
+ "scopes": [
+  "configs/model/England_nontest.json",
+  "configs/model/France_nontest.json",
+  "configs/model/Germany_nontest.json",
+  "configs/model/Italy_nontest.json",
+  "configs/model/Spain_nontest.json"
+ ],
+ "selection": "results/model/eval/england_structures/selected_completed.json",
+ "models": {
+  "R1": "results/model/population/r1.npz",
+  "R2": "results/model/population/r2.npz",
+  "M0": "results/model/population/m0.npz",
+  "M0p": "results/model/population_m0_pooled/m0.npz",
+  "M1": "results/model/m1/seed20260715/offsets.npz",
+  "B0-g": "results/model/b0_g/b0.npz",
+  "B0-M1": "results/model/b0_m1/b0.npz",
+  "M2": {
+   "variant": "m2"
+  },
+  "M2-主效应": {
+   "variant": "m2_main"
+  },
+  "M2-无类型": {
+   "variant": "m2_no_types"
+  },
+  "M2-无对方事件": {
+   "variant": "m2_no_opp"
+  },
+  "M3": {
+   "variant": "m3"
+  },
+  "M2+3": {
+   "variant": "m23"
+  },
+  "M4": {
+   "variant": "m4"
+  },
+  "M4-无相似边": {
+   "variant": "m4_no_knn"
+  },
+  "M4-无ID": {
+   "variant": "m4_no_id"
+  },
+  "D": {
+   "variant": "d"
+  }
+ },
+ "comparisons": [
+  [
+   "M2",
+   "M1",
+   "A1"
+  ],
+  [
+   "M2",
+   "M2-主效应",
+   "A2"
+  ],
+  [
+   "M2",
+   "M2-无类型",
+   "A3"
+  ],
+  [
+   "M2",
+   "B0-M1",
+   "A4"
+  ],
+  [
+   "M4",
+   "M2+3",
+   "A5"
+  ],
+  [
+   "M4",
+   "M2",
+   "A6"
+  ],
+  [
+   "M3",
+   "M1",
+   "Q1"
+  ],
+  [
+   "M2+3",
+   "M2"
+  ],
+  [
+   "M2+3",
+   "M3"
+  ],
+  [
+   "M2",
+   "M2-无对方事件"
+  ],
+  [
+   "M4",
+   "M4-无相似边"
+  ],
+  [
+   "M4",
+   "M4-无ID"
+  ],
+  [
+   "D",
+   "M2"
+  ],
+  [
+   "B0-M1",
+   "M1"
+  ],
+  [
+   "B0-g",
+   "M0"
+  ],
+  [
+   "M1",
+   "M0"
+  ],
+  [
+   "M1",
+   "M0p"
+  ],
+  [
+   "M0p",
+   "M0"
+  ],
+  [
+   "M0",
+   "R2"
+  ],
+  [
+   "R2",
+   "R1"
+  ]
+ ],
+ "bootstrap": 10000,
+ "seed": 20261021,
+ "out_json": "results/model/eval/dev_completed.json",
+ "out_md": "results/model/eval/dev_completed.md"
+}

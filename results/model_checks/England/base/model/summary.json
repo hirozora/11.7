@@ -1,0 +1,48 @@
+{
+ "league": "England",
+ "matches": {
+  "model_train": 2,
+  "model_validation": 1
+ },
+ "events": 5166,
+ "targets": {
+  "model_train": 2357,
+  "model_validation": 1120
+ },
+ "unreachable": {
+  "model_train": 3,
+  "model_validation": 1
+ },
+ "candidate_rows": 38247,
+ "max_candidates": 11,
+ "excluded_pairs": 411,
+ "substitutions": 17,
+ "substitutions_without_incoming_player": 0,
+ "targets_by_unlisted_actor": 0,
+ "history_rows": 83,
+ "without_prior_role": 0.8433734939759037,
+ "placeholder_starts": 89,
+ "roles": [
+  "GK",
+  "backmid/centre",
+  "backmid/halfL",
+  "backmid/halfR",
+  "backmid/wideL",
+  "backmid/wideR",
+  "deep/centre",
+  "deep/halfL",
+  "deep/halfR",
+  "deep/wideL",
+  "deep/wideR",
+  "front/centre",
+  "front/halfL",
+  "front/halfR",
+  "front/wideL",
+  "front/wideR",
+  "mid/centre",
+  "mid/halfL",
+  "mid/halfR",
+  "mid/wideL",
+  "mid/wideR"
+ ]
+}

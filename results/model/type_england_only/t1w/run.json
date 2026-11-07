@@ -1,0 +1,12 @@
+{
+ "config": "configs/model/type_t1w_england_only.json",
+ "seed": 20260715,
+ "type_head": "pooled",
+ "who_loss": true,
+ "train_targets": 302927,
+ "validation_targets": 64975,
+ "parameters": 125415,
+ "best_epoch": 120,
+ "best_validation_type_nll": 1.0154372453689575,
+ "wall_seconds": 663.5
+}

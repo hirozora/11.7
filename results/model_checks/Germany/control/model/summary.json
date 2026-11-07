@@ -1,0 +1,48 @@
+{
+ "league": "Germany",
+ "matches": {
+  "model_train": 2,
+  "model_validation": 1
+ },
+ "events": 5241,
+ "targets": {
+  "model_train": 2268,
+  "model_validation": 1318
+ },
+ "unreachable": {
+  "model_train": 5,
+  "model_validation": 1
+ },
+ "candidate_rows": 39446,
+ "max_candidates": 11,
+ "excluded_pairs": 417,
+ "substitutions": 18,
+ "substitutions_without_incoming_player": 0,
+ "targets_by_unlisted_actor": 0,
+ "history_rows": 84,
+ "without_prior_role": 0.8333333333333334,
+ "placeholder_starts": 89,
+ "roles": [
+  "GK",
+  "backmid/centre",
+  "backmid/halfL",
+  "backmid/halfR",
+  "backmid/wideL",
+  "backmid/wideR",
+  "deep/centre",
+  "deep/halfL",
+  "deep/halfR",
+  "deep/wideL",
+  "deep/wideR",
+  "front/centre",
+  "front/halfL",
+  "front/halfR",
+  "front/wideL",
+  "front/wideR",
+  "mid/centre",
+  "mid/halfL",
+  "mid/halfR",
+  "mid/wideL",
+  "mid/wideR"
+ ]
+}

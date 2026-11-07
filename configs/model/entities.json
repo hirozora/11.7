@@ -1,0 +1,12 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json",
+    "configs/model/France_nontest.json",
+    "configs/model/Germany_nontest.json",
+    "configs/model/Italy_nontest.json",
+    "configs/model/Spain_nontest.json"
+  ],
+  "team_type_k": 3,
+  "seed": 20261018,
+  "out": "results/model/entities/terms.npz"
+}

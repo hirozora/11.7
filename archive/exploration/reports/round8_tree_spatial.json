@@ -1,0 +1,2713 @@
+{
+ "trees": {
+  "team|long_pass|K8": {
+   "spatial_cells": 21,
+   "x_thresholds": 4,
+   "y_thresholds": 0,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "x > 63.5",
+     "rows": 99413,
+     "rate": 0.022069548248217035,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "not phase=first & 15.5 < x <= 22.5",
+     "rows": 6861,
+     "rate": 0.20215711995335958,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "phase=first & not possession_start=interception & x <= 22.5",
+     "rows": 9274,
+     "rate": 0.1897778736251887,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "phase=first & possession_start=interception & x <= 22.5",
+     "rows": 11248,
+     "rate": 0.03769559032716927,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "22.5 < x <= 43.5",
+     "rows": 91015,
+     "rate": 0.09814865681481075,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "43.5 < x <= 63.5",
+     "rows": 74256,
+     "rate": 0.06746929541047188,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "not phase=first & not possession_start=interception & x <= 15.5",
+     "rows": 8462,
+     "rate": 0.4506026943984874,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "possession_start=interception & not phase=first & x <= 15.5",
+     "rows": 3070,
+     "rate": 0.354071661237785,
+     "matches": 266
+    }
+   ]
+  },
+  "team|long_pass|K16": {
+   "spatial_cells": 45,
+   "x_thresholds": 6,
+   "y_thresholds": 2,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "not phase=first & 15.5 < x <= 22.5",
+     "rows": 6861,
+     "rate": 0.20215711995335958,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "phase=first & possession_start=interception & x <= 22.5",
+     "rows": 11248,
+     "rate": 0.03769559032716927,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "43.5 < x <= 63.5",
+     "rows": 74256,
+     "rate": 0.06746929541047188,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "not phase=first & not possession_start=interception & x <= 15.5",
+     "rows": 8462,
+     "rate": 0.4506026943984874,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "possession_start=interception & not phase=first & x <= 15.5",
+     "rows": 3070,
+     "rate": 0.354071661237785,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "22.5 < x <= 43.5 & y > 89.5",
+     "rows": 8107,
+     "rate": 0.14444307388676453,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "63.5 < x <= 75.5",
+     "rows": 55577,
+     "rate": 0.03537434550263598,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "x > 75.5",
+     "rows": 43836,
+     "rate": 0.005201204489460717,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "phase=first & not possession_start=interception & x <= 10.5",
+     "rows": 3109,
+     "rate": 0.13123190736571244,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "phase=first & not possession_start=interception & 10.5 < x <= 22.5",
+     "rows": 6165,
+     "rate": 0.21930251419302516,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "22.5 < x <= 43.5 & y <= 9.5",
+     "rows": 7369,
+     "rate": 0.13244673632785994,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "score_diff > 2.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 3374,
+     "rate": 0.044754001185536456,
+     "matches": 62
+    },
+    {
+     "leaf": 12,
+     "rule": "possession_start=interception & score_diff <= 2.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 16831,
+     "rate": 0.07474303368783791,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "not possession_start=interception & score_diff <= 2.5 & steps > 1.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 31433,
+     "rate": 0.08777399548245475,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "not possession_start=interception & not opp5=other & score_diff <= 2.5 & steps <= 1.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 19938,
+     "rate": 0.10191593941217775,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "opp5=other & not possession_start=interception & score_diff <= 2.5 & steps <= 1.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 3963,
+     "rate": 0.14786777693666414,
+     "matches": 266
+    }
+   ]
+  },
+  "team|long_pass|K32": {
+   "spatial_cells": 128,
+   "x_thresholds": 14,
+   "y_thresholds": 5,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "possession_start=interception & not phase=first & x <= 15.5",
+     "rows": 3070,
+     "rate": 0.354071661237785,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "x > 75.5",
+     "rows": 43836,
+     "rate": 0.005201204489460717,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "phase=first & not possession_start=interception & x <= 10.5",
+     "rows": 3109,
+     "rate": 0.13123190736571244,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "phase=first & not possession_start=interception & 10.5 < x <= 22.5",
+     "rows": 6165,
+     "rate": 0.21930251419302516,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "score_diff > 2.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 3374,
+     "rate": 0.044754001185536456,
+     "matches": 62
+    },
+    {
+     "leaf": 5,
+     "rule": "opp5=other & not possession_start=interception & score_diff <= 2.5 & steps <= 1.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 3963,
+     "rate": 0.14786777693666414,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "not phase=first & 15.5 < x <= 19.5",
+     "rows": 3189,
+     "rate": 0.23549702100972092,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "not phase=first & 19.5 < x <= 22.5",
+     "rows": 3672,
+     "rate": 0.17320261437908496,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "not possession_start=interception & score_diff <= 2.5 & steps > 1.5 & 22.5 < x <= 43.5 & 73.5 < y <= 89.5",
+     "rows": 6404,
+     "rate": 0.1150843222985634,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "not phase=first & not possession_start=interception & x <= 9.5",
+     "rows": 3933,
+     "rate": 0.47215865751334857,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "not phase=first & not possession_start=interception & 9.5 < x <= 15.5",
+     "rows": 4529,
+     "rate": 0.4318834179730625,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "22.5 < x <= 33.5 & y <= 9.5",
+     "rows": 3564,
+     "rate": 0.1590909090909091,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "33.5 < x <= 43.5 & y <= 9.5",
+     "rows": 3805,
+     "rate": 0.10749014454664915,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "not possession_start=interception & not opp5=other & score_diff <= 2.5 & steps <= 1.5 & 22.5 < x <= 27.5 & 9.5 < y <= 89.5",
+     "rows": 4455,
+     "rate": 0.12682379349046016,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "not possession_start=interception & not opp5=other & score_diff <= 2.5 & steps <= 1.5 & 27.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 15483,
+     "rate": 0.09474907963572951,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "minute > 87.8 & 43.5 < x <= 63.5",
+     "rows": 3810,
+     "rate": 0.10288713910761155,
+     "matches": 265
+    },
+    {
+     "leaf": 16,
+     "rule": "minute <= 87.8 & 57.5 < x <= 63.5",
+     "rows": 24742,
+     "rate": 0.0553310160860076,
+     "matches": 266
+    },
+    {
+     "leaf": 17,
+     "rule": "22.5 < x <= 31.5 & y > 89.5",
+     "rows": 3065,
+     "rate": 0.1761827079934747,
+     "matches": 266
+    },
+    {
+     "leaf": 18,
+     "rule": "31.5 < x <= 43.5 & y > 89.5",
+     "rows": 5042,
+     "rate": 0.125148750495835,
+     "matches": 266
+    },
+    {
+     "leaf": 19,
+     "rule": "70.5 < x <= 75.5",
+     "rows": 21131,
+     "rate": 0.025176281292887227,
+     "matches": 266
+    },
+    {
+     "leaf": 20,
+     "rule": "not possession_start=interception & score_diff <= 2.5 & steps > 1.5 & 22.5 < x <= 43.5 & 9.5 < y <= 18.5",
+     "rows": 3135,
+     "rate": 0.10526315789473684,
+     "matches": 266
+    },
+    {
+     "leaf": 21,
+     "rule": "not possession_start=restart_out & minute <= 87.8 & 43.5 < x <= 57.5",
+     "rows": 38491,
+     "rate": 0.06869138240108077,
+     "matches": 266
+    },
+    {
+     "leaf": 22,
+     "rule": "possession_start=restart_out & minute <= 87.8 & 43.5 < x <= 57.5",
+     "rows": 7213,
+     "rate": 0.08387633439622903,
+     "matches": 266
+    },
+    {
+     "leaf": 23,
+     "rule": "63.5 < x <= 70.5 & y <= 22.5",
+     "rows": 8911,
+     "rate": 0.02771855010660981,
+     "matches": 266
+    },
+    {
+     "leaf": 24,
+     "rule": "63.5 < x <= 70.5 & y > 22.5",
+     "rows": 25535,
+     "rate": 0.046485216369688664,
+     "matches": 266
+    },
+    {
+     "leaf": 25,
+     "rule": "possession_start=interception & phase=first & score_diff <= 2.5 & 22.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 5257,
+     "rate": 0.05763743579988587,
+     "matches": 266
+    },
+    {
+     "leaf": 26,
+     "rule": "possession_start=interception & not phase=first & score_diff <= 2.5 & 22.5 < x <= 29.5 & 9.5 < y <= 89.5",
+     "rows": 3485,
+     "rate": 0.10588235294117647,
+     "matches": 266
+    },
+    {
+     "leaf": 27,
+     "rule": "possession_start=interception & not phase=first & score_diff <= 2.5 & 29.5 < x <= 43.5 & 9.5 < y <= 89.5",
+     "rows": 8089,
+     "rate": 0.07244405983434293,
+     "matches": 266
+    },
+    {
+     "leaf": 28,
+     "rule": "phase=first & possession_start=interception & x <= 9.5",
+     "rows": 4900,
+     "rate": 0.023061224489795917,
+     "matches": 266
+    },
+    {
+     "leaf": 29,
+     "rule": "phase=first & possession_start=interception & 9.5 < x <= 22.5",
+     "rows": 6348,
+     "rate": 0.04899180844360428,
+     "matches": 266
+    },
+    {
+     "leaf": 30,
+     "rule": "not possession_start=interception & minute <= 71.5 & score_diff <= 2.5 & steps > 1.5 & 22.5 < x <= 43.5 & 18.5 < y <= 73.5",
+     "rows": 18330,
+     "rate": 0.0729405346426623,
+     "matches": 266
+    },
+    {
+     "leaf": 31,
+     "rule": "not possession_start=interception & minute > 71.5 & score_diff <= 2.5 & steps > 1.5 & 22.5 < x <= 43.5 & 18.5 < y <= 73.5",
+     "rows": 3564,
+     "rate": 0.09960718294051628,
+     "matches": 266
+    }
+   ]
+  },
+  "team|cross|K8": {
+   "spatial_cells": 36,
+   "x_thresholds": 3,
+   "y_thresholds": 3,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "x <= 74.5",
+     "rows": 256306,
+     "rate": 0.0035036245737516875,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "steps <= 2.5 & x > 91.5",
+     "rows": 3547,
+     "rate": 0.25655483507189175,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "steps > 2.5 & x > 91.5",
+     "rows": 5298,
+     "rate": 0.42789731974329936,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "83.5 < x <= 91.5 & y > 72.5",
+     "rows": 4977,
+     "rate": 0.26019690576652604,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "83.5 < x <= 91.5 & y <= 25.5",
+     "rows": 4859,
+     "rate": 0.25169788022226797,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "83.5 < x <= 91.5 & 25.5 < y <= 72.5",
+     "rows": 5778,
+     "rate": 0.029595015576323987,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "74.5 < x <= 83.5 & y <= 80.5",
+     "rows": 16931,
+     "rate": 0.061012344220660326,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "74.5 < x <= 83.5 & y > 80.5",
+     "rows": 5903,
+     "rate": 0.1372183635439607,
+     "matches": 266
+    }
+   ]
+  },
+  "team|cross|K16": {
+   "spatial_cells": 99,
+   "x_thresholds": 6,
+   "y_thresholds": 8,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "steps <= 2.5 & x > 91.5",
+     "rows": 3547,
+     "rate": 0.25655483507189175,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "steps > 2.5 & x > 91.5",
+     "rows": 5298,
+     "rate": 0.42789731974329936,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "83.5 < x <= 91.5 & y > 72.5",
+     "rows": 4977,
+     "rate": 0.26019690576652604,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "83.5 < x <= 91.5 & y <= 25.5",
+     "rows": 4859,
+     "rate": 0.25169788022226797,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "83.5 < x <= 91.5 & 25.5 < y <= 72.5",
+     "rows": 5778,
+     "rate": 0.029595015576323987,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "74.5 < x <= 83.5 & y > 80.5",
+     "rows": 5903,
+     "rate": 0.1372183635439607,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "74.5 < x <= 83.5 & y <= 19.5",
+     "rows": 5966,
+     "rate": 0.12805900100569895,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "68.5 < x <= 74.5 & y <= 24.5",
+     "rows": 7795,
+     "rate": 0.0354073123797306,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "68.5 < x <= 74.5 & 24.5 < y <= 74.5",
+     "rows": 12323,
+     "rate": 0.006167329384078552,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "74.5 < x <= 83.5 & 63.5 < y <= 80.5",
+     "rows": 3235,
+     "rate": 0.04791344667697063,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "74.5 < x <= 83.5 & 19.5 < y <= 34.5",
+     "rows": 3225,
+     "rate": 0.03193798449612403,
+     "matches": 265
+    },
+    {
+     "leaf": 11,
+     "rule": "74.5 < x <= 83.5 & 34.5 < y <= 63.5",
+     "rows": 4505,
+     "rate": 0.00244173140954495,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "68.5 < x <= 71.5 & y > 74.5",
+     "rows": 4078,
+     "rate": 0.038254046101029913,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "71.5 < x <= 74.5 & y > 74.5",
+     "rows": 3671,
+     "rate": 0.05802233723780986,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "x <= 65.5",
+     "rows": 213625,
+     "rate": 0.00029959040374488005,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "65.5 < x <= 68.5",
+     "rows": 14814,
+     "rate": 0.007627919535574457,
+     "matches": 266
+    }
+   ]
+  },
+  "team|cross|K32": {
+   "spatial_cells": 187,
+   "x_thresholds": 8,
+   "y_thresholds": 14,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "steps <= 2.5 & x > 91.5",
+     "rows": 3547,
+     "rate": 0.25655483507189175,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "steps > 2.5 & x > 91.5",
+     "rows": 5298,
+     "rate": 0.42789731974329936,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "83.5 < x <= 91.5 & y > 72.5",
+     "rows": 4977,
+     "rate": 0.26019690576652604,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "83.5 < x <= 91.5 & y <= 25.5",
+     "rows": 4859,
+     "rate": 0.25169788022226797,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "83.5 < x <= 91.5 & 25.5 < y <= 72.5",
+     "rows": 5778,
+     "rate": 0.029595015576323987,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "74.5 < x <= 83.5 & y > 80.5",
+     "rows": 5903,
+     "rate": 0.1372183635439607,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "74.5 < x <= 83.5 & y <= 19.5",
+     "rows": 5966,
+     "rate": 0.12805900100569895,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "74.5 < x <= 83.5 & 63.5 < y <= 80.5",
+     "rows": 3235,
+     "rate": 0.04791344667697063,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "74.5 < x <= 83.5 & 19.5 < y <= 34.5",
+     "rows": 3225,
+     "rate": 0.03193798449612403,
+     "matches": 265
+    },
+    {
+     "leaf": 9,
+     "rule": "74.5 < x <= 83.5 & 34.5 < y <= 63.5",
+     "rows": 4505,
+     "rate": 0.00244173140954495,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "68.5 < x <= 71.5 & y > 74.5",
+     "rows": 4078,
+     "rate": 0.038254046101029913,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "71.5 < x <= 74.5 & y > 74.5",
+     "rows": 3671,
+     "rate": 0.05802233723780986,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "68.5 < x <= 71.5 & y <= 24.5",
+     "rows": 4150,
+     "rate": 0.02674698795180723,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "71.5 < x <= 74.5 & y <= 24.5",
+     "rows": 3645,
+     "rate": 0.04526748971193416,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "65.5 < x <= 68.5 & y > 72.5",
+     "rows": 4512,
+     "rate": 0.015957446808510637,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "68.5 < x <= 74.5 & 62.5 < y <= 74.5",
+     "rows": 3246,
+     "rate": 0.015095502156500308,
+     "matches": 266
+    },
+    {
+     "leaf": 16,
+     "rule": "65.5 < x <= 68.5 & y <= 23.5",
+     "rows": 3976,
+     "rate": 0.007796780684104628,
+     "matches": 266
+    },
+    {
+     "leaf": 17,
+     "rule": "60.5 < x <= 65.5 & y > 78.5",
+     "rows": 5649,
+     "rate": 0.0053106744556558685,
+     "matches": 266
+    },
+    {
+     "leaf": 18,
+     "rule": "68.5 < x <= 74.5 & 24.5 < y <= 36.5",
+     "rows": 3278,
+     "rate": 0.007016473459426479,
+     "matches": 266
+    },
+    {
+     "leaf": 19,
+     "rule": "68.5 < x <= 74.5 & 36.5 < y <= 62.5",
+     "rows": 5799,
+     "rate": 0.0006897740989825832,
+     "matches": 266
+    },
+    {
+     "leaf": 20,
+     "rule": "minute > 74.6 & 60.5 < x <= 65.5 & y <= 78.5",
+     "rows": 3149,
+     "rate": 0.003810733566211496,
+     "matches": 266
+    },
+    {
+     "leaf": 21,
+     "rule": "possession_start=other & minute <= 74.6 & 60.5 < x <= 65.5 & y <= 78.5",
+     "rows": 3147,
+     "rate": 0.0019065776930409914,
+     "matches": 266
+    },
+    {
+     "leaf": 22,
+     "rule": "not possession_start=other & minute <= 20.3 & 60.5 < x <= 65.5 & y <= 78.5",
+     "rows": 3027,
+     "rate": 0.0013214403700033035,
+     "matches": 266
+    },
+    {
+     "leaf": 23,
+     "rule": "minute <= 48.3 & 65.5 < x <= 68.5 & 23.5 < y <= 72.5",
+     "rows": 3346,
+     "rate": 0.001195457262402869,
+     "matches": 266
+    },
+    {
+     "leaf": 24,
+     "rule": "minute > 48.3 & 65.5 < x <= 68.5 & 23.5 < y <= 72.5",
+     "rows": 2980,
+     "rate": 0.0020134228187919465,
+     "matches": 266
+    },
+    {
+     "leaf": 25,
+     "rule": "57.5 < x <= 60.5 & y <= 20.5",
+     "rows": 3120,
+     "rate": 0.000641025641025641,
+     "matches": 266
+    },
+    {
+     "leaf": 26,
+     "rule": "not possession_start=restart_foul & x <= 57.5",
+     "rows": 174416,
+     "rate": 1.7200256857169067e-05,
+     "matches": 266
+    },
+    {
+     "leaf": 27,
+     "rule": "possession_start=restart_foul & x <= 57.5",
+     "rows": 3659,
+     "rate": 0.00027329871549603714,
+     "matches": 254
+    },
+    {
+     "leaf": 28,
+     "rule": "57.5 < x <= 60.5 & 20.5 < y <= 78.5",
+     "rows": 6440,
+     "rate": 0.0,
+     "matches": 266
+    },
+    {
+     "leaf": 29,
+     "rule": "57.5 < x <= 60.5 & y > 78.5",
+     "rows": 3100,
+     "rate": 0.0006451612903225806,
+     "matches": 266
+    },
+    {
+     "leaf": 30,
+     "rule": "not possession_start=other & 20.3 < minute <= 74.6 & 60.5 < x <= 65.5 & y <= 43.5",
+     "rows": 4948,
+     "rate": 0.0004042037186742118,
+     "matches": 266
+    },
+    {
+     "leaf": 31,
+     "rule": "not possession_start=other & 20.3 < minute <= 74.6 & 60.5 < x <= 65.5 & 43.5 < y <= 78.5",
+     "rows": 2970,
+     "rate": 0.0006734006734006734,
+     "matches": 266
+    }
+   ]
+  },
+  "team|forward|K8": {
+   "spatial_cells": 30,
+   "x_thresholds": 3,
+   "y_thresholds": 2,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "16.5 < x <= 49.5",
+     "rows": 122958,
+     "rate": 0.24595390295873387,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "not phase=first & x <= 16.5",
+     "rows": 12194,
+     "rate": 0.5556011153026078,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "phase=first & not possession_start=interception & x <= 16.5",
+     "rows": 6264,
+     "rate": 0.28272669220945085,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "phase=first & possession_start=interception & x <= 16.5",
+     "rows": 9263,
+     "rate": 0.0823707222282198,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "x > 49.5 & y <= 19.5",
+     "rows": 35744,
+     "rate": 0.10636750223813787,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "x > 49.5 & y > 71.5",
+     "rows": 48388,
+     "rate": 0.1255269901628503,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "49.5 < x <= 74.5 & 19.5 < y <= 71.5",
+     "rows": 49712,
+     "rate": 0.17156823302220792,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "x > 74.5 & 19.5 < y <= 71.5",
+     "rows": 19076,
+     "rate": 0.32412455441392324,
+     "matches": 266
+    }
+   ]
+  },
+  "team|forward|K16": {
+   "spatial_cells": 80,
+   "x_thresholds": 8,
+   "y_thresholds": 5,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "phase=first & possession_start=interception & x <= 16.5",
+     "rows": 9263,
+     "rate": 0.0823707222282198,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "49.5 < x <= 74.5 & 19.5 < y <= 71.5",
+     "rows": 49712,
+     "rate": 0.17156823302220792,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "x > 74.5 & 19.5 < y <= 29.5",
+     "rows": 4483,
+     "rate": 0.13606959625250947,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "74.5 < x <= 85.5 & 29.5 < y <= 71.5",
+     "rows": 7954,
+     "rate": 0.2934372642695499,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "x > 85.5 & 29.5 < y <= 71.5",
+     "rows": 6639,
+     "rate": 0.48787467992167494,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "49.5 < x <= 81.5 & y > 71.5",
+     "rows": 38866,
+     "rate": 0.14768692430401895,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "x > 81.5 & y > 71.5",
+     "rows": 9522,
+     "rate": 0.03507666456626759,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "49.5 < x <= 78.5 & y <= 19.5",
+     "rows": 26322,
+     "rate": 0.1320948256211534,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "x > 78.5 & y <= 19.5",
+     "rows": 9422,
+     "rate": 0.034493738059859905,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "not phase=first & x <= 16.5 & y <= 36.5",
+     "rows": 3174,
+     "rate": 0.4580970384373031,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "not phase=first & x <= 16.5 & 36.5 < y <= 63.5",
+     "rows": 5908,
+     "rate": 0.6428571428571429,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "not phase=first & x <= 16.5 & y > 63.5",
+     "rows": 3112,
+     "rate": 0.4893958868894602,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "16.5 < x <= 33.5",
+     "rows": 59142,
+     "rate": 0.22738493794596057,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "33.5 < x <= 49.5",
+     "rows": 63816,
+     "rate": 0.26316284317412564,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "phase=first & not possession_start=interception & x <= 10.5",
+     "rows": 3109,
+     "rate": 0.2029591508523641,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "phase=first & not possession_start=interception & 10.5 < x <= 16.5",
+     "rows": 3155,
+     "rate": 0.3613312202852615,
+     "matches": 266
+    }
+   ]
+  },
+  "team|forward|K32": {
+   "spatial_cells": 170,
+   "x_thresholds": 15,
+   "y_thresholds": 7,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "x > 74.5 & 19.5 < y <= 29.5",
+     "rows": 4483,
+     "rate": 0.13606959625250947,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "74.5 < x <= 85.5 & 29.5 < y <= 71.5",
+     "rows": 7954,
+     "rate": 0.2934372642695499,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "x > 81.5 & y > 71.5",
+     "rows": 9522,
+     "rate": 0.03507666456626759,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "x > 78.5 & y <= 19.5",
+     "rows": 9422,
+     "rate": 0.034493738059859905,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "not phase=first & x <= 16.5 & y <= 36.5",
+     "rows": 3174,
+     "rate": 0.4580970384373031,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "not phase=first & x <= 16.5 & 36.5 < y <= 63.5",
+     "rows": 5908,
+     "rate": 0.6428571428571429,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "not phase=first & x <= 16.5 & y > 63.5",
+     "rows": 3112,
+     "rate": 0.4893958868894602,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "phase=first & not possession_start=interception & x <= 10.5",
+     "rows": 3109,
+     "rate": 0.2029591508523641,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "phase=first & not possession_start=interception & 10.5 < x <= 16.5",
+     "rows": 3155,
+     "rate": 0.3613312202852615,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "possession_start=interception & phase=first & 16.5 < x <= 33.5",
+     "rows": 6343,
+     "rate": 0.14046980923853067,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "49.5 < x <= 55.5 & y > 71.5",
+     "rows": 4893,
+     "rate": 0.20519108931126098,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "not possession_start=interception & 16.5 < x <= 20.5",
+     "rows": 4460,
+     "rate": 0.3002242152466368,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "not possession_start=interception & 20.5 < x <= 33.5",
+     "rows": 38876,
+     "rate": 0.2335374009671777,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "70.5 < x <= 74.5 & 19.5 < y <= 71.5",
+     "rows": 8068,
+     "rate": 0.20810609816559247,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "49.5 < x <= 56.5 & 19.5 < y <= 71.5",
+     "rows": 12659,
+     "rate": 0.19954182794849515,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "56.5 < x <= 70.5 & 19.5 < y <= 71.5",
+     "rows": 28985,
+     "rate": 0.14918061066068655,
+     "matches": 266
+    },
+    {
+     "leaf": 16,
+     "rule": "49.5 < x <= 57.5 & y <= 19.5",
+     "rows": 5304,
+     "rate": 0.17609351432880846,
+     "matches": 266
+    },
+    {
+     "leaf": 17,
+     "rule": "57.5 < x <= 78.5 & y <= 19.5",
+     "rows": 21018,
+     "rate": 0.12099153106860785,
+     "matches": 266
+    },
+    {
+     "leaf": 18,
+     "rule": "x > 85.5 & 29.5 < y <= 51.5",
+     "rows": 3528,
+     "rate": 0.5226757369614512,
+     "matches": 266
+    },
+    {
+     "leaf": 19,
+     "rule": "x > 85.5 & 51.5 < y <= 71.5",
+     "rows": 3111,
+     "rate": 0.4484088717454195,
+     "matches": 266
+    },
+    {
+     "leaf": 20,
+     "rule": "score_diff > 1.5 & 33.5 < x <= 49.5",
+     "rows": 6936,
+     "rate": 0.22649942329873127,
+     "matches": 120
+    },
+    {
+     "leaf": 21,
+     "rule": "minute > 83.8 & score_diff <= 1.5 & 33.5 < x <= 49.5",
+     "rows": 3953,
+     "rate": 0.3217809258790792,
+     "matches": 265
+    },
+    {
+     "leaf": 22,
+     "rule": "phase=early & minute <= 83.8 & score_diff <= 1.5 & 33.5 < x <= 49.5",
+     "rows": 22927,
+     "rate": 0.24512583416932002,
+     "matches": 266
+    },
+    {
+     "leaf": 23,
+     "rule": "possession_start=opp_pass_lost & not phase=early & minute <= 83.8 & score_diff <= 1.5 & 33.5 < x <= 49.5",
+     "rows": 7582,
+     "rate": 0.3107359535742548,
+     "matches": 266
+    },
+    {
+     "leaf": 24,
+     "rule": "not phase=early & not possession_start=opp_pass_lost & not phase=first & minute <= 83.8 & score_diff <= 1.5 & 33.5 < x <= 49.5",
+     "rows": 15149,
+     "rate": 0.2816687570136643,
+     "matches": 266
+    },
+    {
+     "leaf": 25,
+     "rule": "phase=first & not phase=early & not possession_start=opp_pass_lost & minute <= 83.8 & score_diff <= 1.5 & 33.5 < x <= 49.5",
+     "rows": 7269,
+     "rate": 0.23497042234145,
+     "matches": 266
+    },
+    {
+     "leaf": 26,
+     "rule": "55.5 < x <= 81.5 & 71.5 < y <= 82.5",
+     "rows": 12676,
+     "rate": 0.1570684758598927,
+     "matches": 266
+    },
+    {
+     "leaf": 27,
+     "rule": "55.5 < x <= 81.5 & y > 82.5",
+     "rows": 21297,
+     "rate": 0.12889139315396533,
+     "matches": 266
+    },
+    {
+     "leaf": 28,
+     "rule": "phase=first & possession_start=interception & x <= 7.5",
+     "rows": 3147,
+     "rate": 0.04099142040038131,
+     "matches": 266
+    },
+    {
+     "leaf": 29,
+     "rule": "phase=first & possession_start=interception & 7.5 < x <= 16.5",
+     "rows": 6116,
+     "rate": 0.10366252452583388,
+     "matches": 266
+    },
+    {
+     "leaf": 30,
+     "rule": "possession_start=interception & not phase=first & 16.5 < x <= 25.5",
+     "rows": 3178,
+     "rate": 0.2608558842039018,
+     "matches": 266
+    },
+    {
+     "leaf": 31,
+     "rule": "possession_start=interception & not phase=first & 25.5 < x <= 33.5",
+     "rows": 6285,
+     "rate": 0.20843277645186953,
+     "matches": 266
+    }
+   ]
+  },
+  "team|back_pass|K8": {
+   "spatial_cells": 30,
+   "x_thresholds": 3,
+   "y_thresholds": 2,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "x <= 15.5",
+     "rows": 26389,
+     "rate": 0.01932623441585509,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "15.5 < x <= 34.5",
+     "rows": 65450,
+     "rate": 0.12025974025974026,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 83215,
+     "rate": 0.17776843117226462,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "x > 64.5 & 13.5 < y <= 84.5",
+     "rows": 58871,
+     "rate": 0.13200047561617775,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "steps <= 0.5 & x > 34.5 & y > 84.5",
+     "rows": 4989,
+     "rate": 0.13128883543796352,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "steps > 0.5 & x > 34.5 & y > 84.5",
+     "rows": 31499,
+     "rate": 0.25276992920410174,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "not phase=first & x > 34.5 & y <= 13.5",
+     "rows": 28821,
+     "rate": 0.25817979945178865,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "phase=first & x > 34.5 & y <= 13.5",
+     "rows": 4365,
+     "rate": 0.1402061855670103,
+     "matches": 266
+    }
+   ]
+  },
+  "team|back_pass|K16": {
+   "spatial_cells": 35,
+   "x_thresholds": 4,
+   "y_thresholds": 2,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "x <= 15.5",
+     "rows": 26389,
+     "rate": 0.01932623441585509,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "steps <= 0.5 & x > 34.5 & y > 84.5",
+     "rows": 4989,
+     "rate": 0.13128883543796352,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "phase=first & x > 34.5 & y <= 13.5",
+     "rows": 4365,
+     "rate": 0.1402061855670103,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "minute <= 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 2963,
+     "rate": 0.2915963550455619,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "not opp5=duel & steps > 0.5 & x > 34.5 & y > 84.5",
+     "rows": 15347,
+     "rate": 0.2866358245911253,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "64.5 < x <= 93.5 & 13.5 < y <= 84.5",
+     "rows": 55635,
+     "rate": 0.12607171744405501,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "x > 93.5 & 13.5 < y <= 84.5",
+     "rows": 3236,
+     "rate": 0.23393077873918416,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "not possession_start=interception & 15.5 < x <= 34.5",
+     "rows": 48016,
+     "rate": 0.13226841052982338,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "not phase=first & not opp5=duel & x > 34.5 & y <= 13.5",
+     "rows": 13991,
+     "rate": 0.2866128225287685,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "opp5=duel & not phase=first & x > 34.5 & y <= 13.5",
+     "rows": 14830,
+     "rate": 0.2313553607552259,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "opp5=duel & 0.5 < steps <= 2.5 & x > 34.5 & y > 84.5",
+     "rows": 4492,
+     "rate": 0.16073018699910951,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "opp5=duel & steps > 2.5 & x > 34.5 & y > 84.5",
+     "rows": 11660,
+     "rate": 0.24365351629502574,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "not opp5=other & minute > 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 66588,
+     "rate": 0.1661860995975251,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "opp5=other & minute > 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 13664,
+     "rate": 0.20952868852459017,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "possession_start=interception & steps <= 0.5 & 15.5 < x <= 34.5",
+     "rows": 6987,
+     "rate": 0.0465149563475025,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "possession_start=interception & steps > 0.5 & 15.5 < x <= 34.5",
+     "rows": 10447,
+     "rate": 0.11438690533167417,
+     "matches": 266
+    }
+   ]
+  },
+  "team|back_pass|K32": {
+   "spatial_cells": 117,
+   "x_thresholds": 6,
+   "y_thresholds": 10,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "steps <= 0.5 & x > 34.5 & y > 84.5",
+     "rows": 4989,
+     "rate": 0.13128883543796352,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "phase=first & x > 34.5 & y <= 13.5",
+     "rows": 4365,
+     "rate": 0.1402061855670103,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "minute <= 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 2963,
+     "rate": 0.2915963550455619,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "x > 93.5 & 13.5 < y <= 84.5",
+     "rows": 3236,
+     "rate": 0.23393077873918416,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "opp5=duel & 0.5 < steps <= 2.5 & x > 34.5 & y > 84.5",
+     "rows": 4492,
+     "rate": 0.16073018699910951,
+     "matches": 266
+    },
+    {
+     "leaf": 5,
+     "rule": "possession_start=interception & steps <= 0.5 & 15.5 < x <= 34.5",
+     "rows": 6987,
+     "rate": 0.0465149563475025,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "possession_start=interception & steps > 0.5 & 15.5 < x <= 34.5",
+     "rows": 10447,
+     "rate": 0.11438690533167417,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "64.5 < x <= 93.5 & 13.5 < y <= 27.5",
+     "rows": 12749,
+     "rate": 0.15969879990587496,
+     "matches": 266
+    },
+    {
+     "leaf": 8,
+     "rule": "64.5 < x <= 93.5 & 72.5 < y <= 84.5",
+     "rows": 10149,
+     "rate": 0.16169080697605676,
+     "matches": 266
+    },
+    {
+     "leaf": 9,
+     "rule": "64.5 < x <= 76.5 & 27.5 < y <= 72.5",
+     "rows": 20711,
+     "rate": 0.1215779054608662,
+     "matches": 266
+    },
+    {
+     "leaf": 10,
+     "rule": "76.5 < x <= 93.5 & 27.5 < y <= 72.5",
+     "rows": 12026,
+     "rate": 0.0681024447031432,
+     "matches": 266
+    },
+    {
+     "leaf": 11,
+     "rule": "opp5=duel & not phase=first & not phase=settled & x > 34.5 & y <= 13.5",
+     "rows": 6008,
+     "rate": 0.18908122503328895,
+     "matches": 266
+    },
+    {
+     "leaf": 12,
+     "rule": "opp5=duel & phase=settled & not phase=first & x > 34.5 & y <= 13.5",
+     "rows": 8822,
+     "rate": 0.2601450918159148,
+     "matches": 266
+    },
+    {
+     "leaf": 13,
+     "rule": "opp5=other & minute > 2.7 & steps <= 1.5 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 3378,
+     "rate": 0.2640615748963884,
+     "matches": 266
+    },
+    {
+     "leaf": 14,
+     "rule": "opp5=other & minute > 2.7 & steps > 1.5 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 10286,
+     "rate": 0.19161967723118803,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "not opp5=other & not phase=first & minute > 2.7 & 34.5 < x <= 64.5 & 28.5 < y <= 70.5",
+     "rows": 29543,
+     "rate": 0.15289577903395052,
+     "matches": 266
+    },
+    {
+     "leaf": 16,
+     "rule": "not opp5=other & not phase=first & minute > 2.7 & 34.5 < x <= 64.5 & 70.5 < y <= 84.5",
+     "rows": 11964,
+     "rate": 0.19257773319959878,
+     "matches": 266
+    },
+    {
+     "leaf": 17,
+     "rule": "not opp5=duel & steps > 0.5 & x > 34.5 & 84.5 < y <= 90.5",
+     "rows": 6102,
+     "rate": 0.25925925925925924,
+     "matches": 266
+    },
+    {
+     "leaf": 18,
+     "rule": "not opp5=duel & steps > 0.5 & x > 34.5 & y > 90.5",
+     "rows": 9245,
+     "rate": 0.3047052460789616,
+     "matches": 266
+    },
+    {
+     "leaf": 19,
+     "rule": "not phase=first & not opp5=duel & not phase=early & x > 34.5 & y <= 13.5",
+     "rows": 6595,
+     "rate": 0.311144806671721,
+     "matches": 266
+    },
+    {
+     "leaf": 20,
+     "rule": "phase=early & not phase=first & not opp5=duel & x > 34.5 & y <= 13.5",
+     "rows": 7396,
+     "rate": 0.26473769605191994,
+     "matches": 266
+    },
+    {
+     "leaf": 21,
+     "rule": "not possession_start=interception & 15.5 < x <= 34.5 & y <= 22.5",
+     "rows": 9836,
+     "rate": 0.16083773891825945,
+     "matches": 266
+    },
+    {
+     "leaf": 22,
+     "rule": "not possession_start=interception & 15.5 < x <= 34.5 & 22.5 < y <= 68.5",
+     "rows": 23350,
+     "rate": 0.1091220556745182,
+     "matches": 266
+    },
+    {
+     "leaf": 23,
+     "rule": "not possession_start=interception & 15.5 < x <= 34.5 & y > 68.5",
+     "rows": 14830,
+     "rate": 0.149763991908294,
+     "matches": 266
+    },
+    {
+     "leaf": 24,
+     "rule": "opp5=duel & steps > 2.5 & x > 34.5 & 84.5 < y <= 89.5",
+     "rows": 3891,
+     "rate": 0.2104857363145721,
+     "matches": 266
+    },
+    {
+     "leaf": 25,
+     "rule": "opp5=duel & steps > 2.5 & x > 34.5 & y > 89.5",
+     "rows": 7769,
+     "rate": 0.2602651563907839,
+     "matches": 266
+    },
+    {
+     "leaf": 26,
+     "rule": "x <= 11.5",
+     "rows": 17920,
+     "rate": 0.0077008928571428575,
+     "matches": 266
+    },
+    {
+     "leaf": 27,
+     "rule": "11.5 < x <= 15.5",
+     "rows": 8469,
+     "rate": 0.043924902585901524,
+     "matches": 266
+    },
+    {
+     "leaf": 28,
+     "rule": "phase=first & not opp5=other & not opp5=pass & minute > 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 6195,
+     "rate": 0.15916061339790152,
+     "matches": 266
+    },
+    {
+     "leaf": 29,
+     "rule": "phase=first & opp5=pass & not opp5=other & minute > 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 84.5",
+     "rows": 5873,
+     "rate": 0.11663545036608207,
+     "matches": 266
+    },
+    {
+     "leaf": 30,
+     "rule": "not opp5=other & not phase=first & not phase=settled & minute > 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 28.5",
+     "rows": 6252,
+     "rate": 0.17882277671145233,
+     "matches": 266
+    },
+    {
+     "leaf": 31,
+     "rule": "phase=settled & not opp5=other & not phase=first & minute > 2.7 & 34.5 < x <= 64.5 & 13.5 < y <= 28.5",
+     "rows": 6761,
+     "rate": 0.2153527584676823,
+     "matches": 266
+    }
+   ]
+  },
+  "who|actor|K8": {
+   "spatial_cells": 30,
+   "x_thresholds": 3,
+   "y_thresholds": 2,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "fine_role=GK & x <= 20.5",
+     "rows": 34394,
+     "rate": 0.24065243937896144,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "fine_role=GK & x > 20.5",
+     "rows": 267778,
+     "rate": 0.0033647274981514538,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "not fine_role=GK & x <= 15.5",
+     "rows": 261370,
+     "rate": 0.07207407124000459,
+     "matches": 266
+    },
+    {
+     "leaf": 3,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & x > 15.5",
+     "rows": 2525504,
+     "rate": 0.0977606845999848,
+     "matches": 266
+    },
+    {
+     "leaf": 4,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & x > 70.5",
+     "rows": 51010,
+     "rate": 0.05012742599490296,
+     "matches": 247
+    },
+    {
+     "leaf": 5,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & y > 79.5",
+     "rows": 33975,
+     "rate": 0.07034584253127299,
+     "matches": 247
+    },
+    {
+     "leaf": 6,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & y <= 19.5",
+     "rows": 33709,
+     "rate": 0.06932866593491352,
+     "matches": 247
+    },
+    {
+     "leaf": 7,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & 19.5 < y <= 79.5",
+     "rows": 103510,
+     "rate": 0.1917689112163076,
+     "matches": 247
+    }
+   ]
+  },
+  "who|actor|K16": {
+   "spatial_cells": 54,
+   "x_thresholds": 6,
+   "y_thresholds": 3,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "fine_role=GK & x <= 20.5",
+     "rows": 34394,
+     "rate": 0.24065243937896144,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "fine_role=GK & x > 20.5",
+     "rows": 267778,
+     "rate": 0.0033647274981514538,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & x > 70.5",
+     "rows": 51010,
+     "rate": 0.05012742599490296,
+     "matches": 247
+    },
+    {
+     "leaf": 3,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & y > 79.5",
+     "rows": 33975,
+     "rate": 0.07034584253127299,
+     "matches": 247
+    },
+    {
+     "leaf": 4,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & y <= 19.5",
+     "rows": 33709,
+     "rate": 0.06932866593491352,
+     "matches": 247
+    },
+    {
+     "leaf": 5,
+     "rule": "not fine_role=GK & steps <= 0.5 & x <= 15.5",
+     "rows": 146809,
+     "rate": 0.09125462335415403,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "not fine_role=GK & steps > 0.5 & x <= 15.5",
+     "rows": 114561,
+     "rate": 0.04749434798928082,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 34.5 & 19.5 < y <= 79.5",
+     "rows": 34337,
+     "rate": 0.1451495471357428,
+     "matches": 247
+    },
+    {
+     "leaf": 8,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 34.5 < x <= 70.5 & 19.5 < y <= 79.5",
+     "rows": 69173,
+     "rate": 0.21491044193543724,
+     "matches": 247
+    },
+    {
+     "leaf": 9,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & 15.5 < x <= 37.5",
+     "rows": 85957,
+     "rate": 0.022825366171457823,
+     "matches": 257
+    },
+    {
+     "leaf": 10,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & 63.5 < x <= 70.5",
+     "rows": 39104,
+     "rate": 0.11354337152209493,
+     "matches": 257
+    },
+    {
+     "leaf": 11,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & x > 70.5",
+     "rows": 73946,
+     "rate": 0.16113109566440376,
+     "matches": 257
+    },
+    {
+     "leaf": 12,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & not phase=early & 37.5 < x <= 63.5",
+     "rows": 67715,
+     "rate": 0.047493169903271064,
+     "matches": 257
+    },
+    {
+     "leaf": 13,
+     "rule": "fine_role=front/centre & phase=early & not fine_role=GK & not fine_role=backmid/centre & 37.5 < x <= 63.5",
+     "rows": 42269,
+     "rate": 0.09527076580945847,
+     "matches": 257
+    },
+    {
+     "leaf": 14,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & x > 15.5 & y <= 16.5",
+     "rows": 397832,
+     "rate": 0.10980011663214623,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & x > 15.5 & y > 16.5",
+     "rows": 1818681,
+     "rate": 0.0976823313159372,
+     "matches": 266
+    }
+   ]
+  },
+  "who|actor|K32": {
+   "spatial_cells": 90,
+   "x_thresholds": 7,
+   "y_thresholds": 6,
+   "leaves": [
+    {
+     "leaf": 0,
+     "rule": "fine_role=GK & x <= 20.5",
+     "rows": 34394,
+     "rate": 0.24065243937896144,
+     "matches": 266
+    },
+    {
+     "leaf": 1,
+     "rule": "fine_role=GK & x > 20.5",
+     "rows": 267778,
+     "rate": 0.0033647274981514538,
+     "matches": 266
+    },
+    {
+     "leaf": 2,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & x > 70.5",
+     "rows": 51010,
+     "rate": 0.05012742599490296,
+     "matches": 247
+    },
+    {
+     "leaf": 3,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & y > 79.5",
+     "rows": 33975,
+     "rate": 0.07034584253127299,
+     "matches": 247
+    },
+    {
+     "leaf": 4,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 70.5 & y <= 19.5",
+     "rows": 33709,
+     "rate": 0.06932866593491352,
+     "matches": 247
+    },
+    {
+     "leaf": 5,
+     "rule": "not fine_role=GK & steps <= 0.5 & x <= 15.5",
+     "rows": 146809,
+     "rate": 0.09125462335415403,
+     "matches": 266
+    },
+    {
+     "leaf": 6,
+     "rule": "not fine_role=GK & steps > 0.5 & x <= 15.5",
+     "rows": 114561,
+     "rate": 0.04749434798928082,
+     "matches": 266
+    },
+    {
+     "leaf": 7,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 15.5 < x <= 34.5 & 19.5 < y <= 79.5",
+     "rows": 34337,
+     "rate": 0.1451495471357428,
+     "matches": 247
+    },
+    {
+     "leaf": 8,
+     "rule": "fine_role=backmid/centre & not fine_role=GK & 34.5 < x <= 70.5 & 19.5 < y <= 79.5",
+     "rows": 69173,
+     "rate": 0.21491044193543724,
+     "matches": 247
+    },
+    {
+     "leaf": 9,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & 15.5 < x <= 37.5",
+     "rows": 85957,
+     "rate": 0.022825366171457823,
+     "matches": 257
+    },
+    {
+     "leaf": 10,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & 63.5 < x <= 70.5",
+     "rows": 39104,
+     "rate": 0.11354337152209493,
+     "matches": 257
+    },
+    {
+     "leaf": 11,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & x > 70.5",
+     "rows": 73946,
+     "rate": 0.16113109566440376,
+     "matches": 257
+    },
+    {
+     "leaf": 12,
+     "rule": "fine_role=front/centre & not fine_role=GK & not fine_role=backmid/centre & not phase=early & 37.5 < x <= 63.5",
+     "rows": 67715,
+     "rate": 0.047493169903271064,
+     "matches": 257
+    },
+    {
+     "leaf": 13,
+     "rule": "fine_role=front/centre & phase=early & not fine_role=GK & not fine_role=backmid/centre & 37.5 < x <= 63.5",
+     "rows": 42269,
+     "rate": 0.09527076580945847,
+     "matches": 257
+    },
+    {
+     "leaf": 14,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=deep/halfR & x > 15.5 & y <= 16.5",
+     "rows": 353775,
+     "rate": 0.12310084092996962,
+     "matches": 266
+    },
+    {
+     "leaf": 15,
+     "rule": "fine_role=deep/halfR & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & x > 15.5 & y <= 16.5",
+     "rows": 44057,
+     "rate": 0.0029961186644574074,
+     "matches": 263
+    },
+    {
+     "leaf": 16,
+     "rule": "fine_role=backmid/wideL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & x > 15.5 & 16.5 < y <= 38.5",
+     "rows": 33098,
+     "rate": 0.10402441235119947,
+     "matches": 205
+    },
+    {
+     "leaf": 17,
+     "rule": "fine_role=backmid/wideL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & x > 15.5 & y > 38.5",
+     "rows": 83063,
+     "rate": 0.007331784308296113,
+     "matches": 205
+    },
+    {
+     "leaf": 18,
+     "rule": "fine_role=backmid/wideR & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & x > 15.5 & y > 70.5",
+     "rows": 49361,
+     "rate": 0.28011993274042263,
+     "matches": 223
+    },
+    {
+     "leaf": 19,
+     "rule": "fine_role=mid/wideR & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & x > 15.5 & y > 70.5",
+     "rows": 34407,
+     "rate": 0.2808440142994158,
+     "matches": 167
+    },
+    {
+     "leaf": 20,
+     "rule": "fine_role=deep/halfL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & x > 15.5 & y > 70.5",
+     "rows": 77764,
+     "rate": 0.007317010441849699,
+     "matches": 263
+    },
+    {
+     "leaf": 21,
+     "rule": "fine_role=backmid/wideR & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & x > 15.5 & 16.5 < y <= 70.5",
+     "rows": 79757,
+     "rate": 0.019822711486139146,
+     "matches": 223
+    },
+    {
+     "leaf": 22,
+     "rule": "fine_role=mid/wideR & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & x > 15.5 & 16.5 < y <= 70.5",
+     "rows": 54575,
+     "rate": 0.02011910215300046,
+     "matches": 167
+    },
+    {
+     "leaf": 23,
+     "rule": "fine_role=front/halfL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & not fine_role=deep/halfL & x > 15.5 & y > 70.5",
+     "rows": 57270,
+     "rate": 0.036650951632617425,
+     "matches": 236
+    },
+    {
+     "leaf": 24,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & not fine_role=deep/halfL & not fine_role=front/halfL & not fine_role=mid/halfL & x > 15.5 & y > 70.5",
+     "rows": 351489,
+     "rate": 0.12752888426095838,
+     "matches": 266
+    },
+    {
+     "leaf": 25,
+     "rule": "fine_role=mid/halfL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & not fine_role=deep/halfL & not fine_role=front/halfL & x > 15.5 & y > 70.5",
+     "rows": 38816,
+     "rate": 0.037536067600989285,
+     "matches": 189
+    },
+    {
+     "leaf": 26,
+     "rule": "fine_role=deep/halfL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & 15.5 < x <= 44.5 & 16.5 < y <= 70.5",
+     "rows": 53984,
+     "rate": 0.25542753408417307,
+     "matches": 263
+    },
+    {
+     "leaf": 27,
+     "rule": "fine_role=deep/halfL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & x > 44.5 & 16.5 < y <= 70.5",
+     "rows": 73090,
+     "rate": 0.06794363113969079,
+     "matches": 263
+    },
+    {
+     "leaf": 28,
+     "rule": "fine_role=mid/wideL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & x > 15.5 & 16.5 < y <= 44.5",
+     "rows": 33852,
+     "rate": 0.09252038284296349,
+     "matches": 180
+    },
+    {
+     "leaf": 29,
+     "rule": "fine_role=mid/wideL & not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & x > 15.5 & y > 44.5",
+     "rows": 66121,
+     "rate": 0.005686544365632704,
+     "matches": 180
+    },
+    {
+     "leaf": 30,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & not fine_role=deep/halfL & x > 15.5 & 16.5 < y <= 44.5",
+     "rows": 399423,
+     "rate": 0.09192009473665763,
+     "matches": 266
+    },
+    {
+     "leaf": 31,
+     "rule": "not fine_role=GK & not fine_role=backmid/centre & not fine_role=front/centre & not fine_role=backmid/wideL & not fine_role=mid/wideL & not fine_role=backmid/wideR & not fine_role=mid/wideR & not fine_role=deep/halfL & x > 15.5 & 44.5 < y <= 70.5",
+     "rows": 332611,
+     "rate": 0.11876937323179329,
+     "matches": 266
+    }
+   ]
+  }
+ },
+ "tests": {
+  "team|long_pass|K8": {
+   "T": 97.59689018733016,
+   "perm_mean": 72.1442568818654,
+   "perm_sd": 11.387576694594726,
+   "p": 0.029850746268656716,
+   "tau": 0.0360666153466208,
+   "leaf_excess": [
+    0.03559818073587567,
+    5.1749599197287734,
+    4.168765563968977,
+    0.4917811027029373,
+    0.1965856962975625,
+    0.030527087216294168,
+    17.04798124023957,
+    -1.6935654854252213
+   ],
+   "forward": {
+    "tau_est": 0.03638175032477255,
+    "gain": 0.00780122097027841,
+    "ci": [
+     -0.00715584044409993,
+     0.023052532012032934
+    ]
+   }
+  },
+  "team|long_pass|K16": {
+   "T": 259.4422964775255,
+   "perm_mean": 190.80288383766077,
+   "perm_sd": 18.2348210624913,
+   "p": 0.004975124378109453,
+   "tau": 0.0592674129994525,
+   "leaf_excess": [
+    5.511287272533349,
+    -0.2449781451173756,
+    0.09728381675246424,
+    20.430480519924814,
+    -2.2079763590299617,
+    0.18488453515871642,
+    0.2511256126849753,
+    1.5702175963375509,
+    4.438565879515204,
+    0.6870035260737861,
+    0.25369318987430034,
+    5.574745486591144,
+    -0.2327768652695923,
+    9.203859284178133,
+    11.581019158311335,
+    11.540978131345884
+   ],
+   "forward": {
+    "tau_est": 0.04512402358688285,
+    "gain": 0.014128800266955416,
+    "ci": [
+     -0.011461314551352846,
+     0.03980377749830831
+    ]
+   }
+  },
+  "team|long_pass|K32": {
+   "T": 496.5258485189267,
+   "perm_mean": 390.9976328850515,
+   "perm_sd": 22.728992103038408,
+   "p": 0.004975124378109453,
+   "tau": 0.0734659814871772,
+   "leaf_excess": [
+    -1.6333174702433233,
+    2.7820700921621038,
+    1.8106841737367603,
+    -0.08762315522086617,
+    3.666029658467682,
+    13.206949346840567,
+    5.1032768542788265,
+    3.6969626740953103,
+    5.01627649919557,
+    9.586366364775579,
+    17.68563273344943,
+    1.4047932930415779,
+    0.2008295953825765,
+    5.555300478887938,
+    2.2507422857773633,
+    8.141259486210433,
+    0.43335279758791545,
+    0.5838365555521638,
+    0.29145716708637204,
+    2.052958384959889,
+    -1.1861240584164445,
+    -0.17125181080998253,
+    -4.582182460776734,
+    0.9649816690245903,
+    -0.04944004110353284,
+    4.594699387494519,
+    6.40356123698011,
+    9.976912780785522,
+    3.7216482455672484,
+    -4.165178915385074,
+    6.803214095805693,
+    1.4695376886854845
+   ],
+   "forward": {
+    "tau_est": 0.07555405560962165,
+    "gain": -0.03508474852363622,
+    "ci": [
+     -0.09686586251361687,
+     0.021270864267999685
+    ]
+   }
+  },
+  "team|cross|K8": {
+   "T": 21.071162540023245,
+   "perm_mean": 24.172633027128658,
+   "perm_sd": 6.878093541176676,
+   "p": 0.6417910447761194,
+   "tau": 0.0,
+   "leaf_excess": [
+    2.937659088818258,
+    -4.676367263689029,
+    -1.9922683344566305,
+    -0.021694138358196516,
+    0.009042669215864007,
+    0.23430488040710262,
+    0.3253784214111185,
+    0.082474189546097
+   ],
+   "forward": {
+    "tau_est": 0.0,
+    "gain": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "team|cross|K16": {
+   "T": 85.76184866692776,
+   "perm_mean": 64.66077260260177,
+   "perm_sd": 7.7790147011787365,
+   "p": 0.014925373134328358,
+   "tau": 0.061070341196063346,
+   "leaf_excess": [
+    -4.6879083983981875,
+    -1.5627956486018508,
+    -0.058295746744079224,
+    -0.0668705114540317,
+    0.3613937725643246,
+    0.08159057842452297,
+    0.08550050467459204,
+    3.6142992087788124,
+    1.1886775522241564,
+    0.5576613322354373,
+    1.4430233165683628,
+    0.6067293870762327,
+    1.6638489435156636,
+    0.7689469006900976,
+    6.2514555721457,
+    10.853819300626228
+   ],
+   "forward": {
+    "tau_est": 0.07967809593207724,
+    "gain": -0.02975016830425035,
+    "ci": [
+     -0.05385946786319963,
+     -0.004955839009998969
+    ]
+   }
+  },
+  "team|cross|K32": {
+   "T": 100.54217489259769,
+   "perm_mean": 79.23684037725688,
+   "perm_sd": 7.750434212245437,
+   "p": 0.004975124378109453,
+   "tau": 0.061736530917946175,
+   "leaf_excess": [
+    -4.942261486363556,
+    -1.275256144212408,
+    -0.1397441695295869,
+    -0.04673124336464057,
+    0.28724822163860164,
+    0.08162590489425887,
+    0.08470748526939428,
+    0.49082034595896396,
+    2.2965505901387093,
+    0.1901371513038676,
+    2.0306984986649046,
+    0.9414685648466945,
+    5.784109828360563,
+    3.80576548932365,
+    4.686731017580142,
+    2.3191283126336675,
+    6.904036578529579,
+    -0.1576898902855235,
+    -1.9990024260520887,
+    0.0,
+    -0.0030635762896450837,
+    0.0,
+    0.0,
+    0.0,
+    -0.022397766478187447,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.011546771226554215,
+    0.0
+   ],
+   "forward": {
+    "tau_est": 0.0754771244235362,
+    "gain": -0.028054990710837287,
+    "ci": [
+     -0.050978888066007665,
+     -0.005590344493849635
+    ]
+   }
+  },
+  "team|forward|K8": {
+   "T": 90.2903384899435,
+   "perm_mean": 59.17423272034787,
+   "perm_sd": 11.637645662718572,
+   "p": 0.004975124378109453,
+   "tau": 0.02611266214960757,
+   "leaf_excess": [
+    0.020270798576700003,
+    14.29847046774755,
+    4.265293704196679,
+    12.495036596148175,
+    0.006315017534998175,
+    0.004289303993140199,
+    0.012264076854634359,
+    0.01416580454376818
+   ],
+   "forward": {
+    "tau_est": 0.028396565073565853,
+    "gain": 0.016273800219285456,
+    "ci": [
+     -0.002105361660413554,
+     0.03614015168541085
+    ]
+   }
+  },
+  "team|forward|K16": {
+   "T": 136.6787164592351,
+   "perm_mean": 92.58104017777707,
+   "perm_sd": 13.564419556270405,
+   "p": 0.004975124378109453,
+   "tau": 0.031132918424810422,
+   "leaf_excess": [
+    11.589414169945961,
+    0.06759438330384336,
+    0.28403065275295786,
+    0.15954475244865307,
+    0.05000704312960705,
+    0.006348273611360235,
+    0.1118124903568023,
+    0.008051392452523533,
+    0.6854361952229968,
+    8.837319240185595,
+    9.604866412408903,
+    9.135991539574398,
+    0.04290125649002832,
+    0.017166501598496364,
+    -1.0022077108364673,
+    4.49939968881235
+   ],
+   "forward": {
+    "tau_est": 0.03106896905455683,
+    "gain": 0.005080980081345787,
+    "ci": [
+     -0.01097626492132686,
+     0.021291379096903422
+    ]
+   }
+  },
+  "team|forward|K32": {
+   "T": 377.8276471164697,
+   "perm_mean": 293.13240359549394,
+   "perm_sd": 25.12320584357409,
+   "p": 0.009950248756218905,
+   "tau": 0.04322973739587307,
+   "leaf_excess": [
+    0.29005249541141903,
+    0.24860512185979722,
+    0.19829516072601883,
+    0.6368310521012406,
+    9.470524566179938,
+    12.68019254019774,
+    11.511818380112135,
+    -2.9533101466908143,
+    4.361620014092924,
+    27.978677051489,
+    0.03365077973574712,
+    -1.0851569854155079,
+    1.8238588196202707,
+    0.22073362687246073,
+    0.11633301435202648,
+    0.5992488573130555,
+    -0.004412627628694488,
+    0.038213315588069376,
+    0.017932785979805188,
+    0.05566124637309547,
+    8.028924589655023,
+    4.8965158619292595,
+    14.876570315165967,
+    -6.923256773029532,
+    -1.700030045760041,
+    1.1592359917371837,
+    -0.01479976996445298,
+    0.151830331869115,
+    -4.855513830963398,
+    13.968252475753637,
+    -2.30329971161167,
+    -8.828554982075062
+   ],
+   "forward": {
+    "tau_est": 0.04347405881406183,
+    "gain": -0.015762907334918214,
+    "ci": [
+     -0.0719724911523717,
+     0.040050346783620766
+    ]
+   }
+  },
+  "team|back_pass|K8": {
+   "T": 42.36810133686987,
+   "perm_mean": 41.390566129643275,
+   "perm_sd": 7.865365389289502,
+   "p": 0.4079601990049751,
+   "tau": 0.005107980572385875,
+   "leaf_excess": [
+    -0.1384358616819802,
+    0.04091095700452922,
+    0.0038181489696689657,
+    0.03653174775490527,
+    -2.049289856890919,
+    -0.11929738773269083,
+    0.18700068191249053,
+    3.016296777890588
+   ],
+   "forward": {
+    "tau_est": 0.0,
+    "gain": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "team|back_pass|K16": {
+   "T": 225.68359329958594,
+   "perm_mean": 195.65503892793456,
+   "perm_sd": 19.06983062718504,
+   "p": 0.06965174129353234,
+   "tau": 0.028321091602925886,
+   "leaf_excess": [
+    -0.17686386924502695,
+    -1.2691191089424443,
+    2.0789906301216696,
+    6.726232264354401,
+    -2.4930953999206995,
+    0.04360136528821085,
+    0.42814019791155306,
+    3.3591407406234044,
+    8.927464290432221,
+    3.8314916890855333,
+    -1.9529961727873637,
+    -4.356219299043328,
+    1.8165520861358928,
+    3.588368994133454,
+    -0.42729065004930433,
+    9.90415661355328
+   ],
+   "forward": {
+    "tau_est": 0.023016178633360484,
+    "gain": 0.004707407967817733,
+    "ci": [
+     -0.011577867379818765,
+     0.020969818528370876
+    ]
+   }
+  },
+  "team|back_pass|K32": {
+   "T": 457.9964969991687,
+   "perm_mean": 385.429717892228,
+   "perm_sd": 24.08580185447957,
+   "p": 0.014925373134328358,
+   "tau": 0.044073692076572794,
+   "leaf_excess": [
+    -2.773483839381779,
+    2.447027841839642,
+    6.108690218125869,
+    1.4760605982109123,
+    -2.0177519119827227,
+    0.1523874070224025,
+    9.85500570629813,
+    0.1355905198780137,
+    0.10439834018494878,
+    0.115835451596349,
+    -0.1989513377427179,
+    -0.357350614019893,
+    7.69192421978226,
+    11.694637309104074,
+    5.4797354776472,
+    3.9686283261511077,
+    1.960640843898128,
+    0.7434366987036718,
+    -2.1085696883923717,
+    6.635129746375238,
+    5.170190279221934,
+    1.3006600481590023,
+    2.9760714979090936,
+    0.12564675194223707,
+    1.04676295923114,
+    -5.763948998496069,
+    -1.291957242446304,
+    0.8713562362135772,
+    -1.2391857528096075,
+    20.340041299173844,
+    0.07813979643685798,
+    -2.1600190808935587
+   ],
+   "forward": {
+    "tau_est": 0.043845913181584,
+    "gain": 0.024191969867750615,
+    "ci": [
+     -0.01443965431816038,
+     0.06426515975308968
+    ]
+   }
+  },
+  "slot|who|K8": {
+   "T": 117.11375255876828,
+   "perm_mean": 83.1225721689543,
+   "perm_sd": 3.1402295724703966,
+   "p": 0.004975124378109453,
+   "tau": 0.012214916930572804,
+   "leaf_excess": [
+    1.3954413990664039,
+    9.256917057660072,
+    16.559687941235502,
+    5.728102724036745,
+    0.2963555151412265,
+    0.04908058963660769,
+    0.6645981757931803,
+    0.04099698724419577
+   ],
+   "forward": {
+    "tau_est": 0.01375117664791789,
+    "gain": -0.006246879797982297,
+    "ci": [
+     -0.00981870314378582,
+     -0.0030247891972798144
+    ]
+   }
+  },
+  "player|who|K8": {
+   "T": 1027.6922861626517,
+   "perm_mean": 801.6775561184629,
+   "perm_sd": 58.62437284773021,
+   "p": 0.004975124378109453,
+   "tau": 0.031688391603232925,
+   "leaf_excess": [
+    -0.5702710686059111,
+    -0.9324254042311111,
+    32.270845294016304,
+    46.6015312361975,
+    17.088292398066827,
+    -6.392526551753093,
+    19.93697666280366,
+    118.0123074776944
+   ],
+   "forward": {
+    "tau_est": 0.022435605652872045,
+    "gain": 0.005202785825059008,
+    "ci": [
+     0.00047928619658801187,
+     0.009832827141942307
+    ]
+   }
+  },
+  "slot|who|K16": {
+   "T": 1066.5504245529446,
+   "perm_mean": 884.924612078222,
+   "perm_sd": 30.508009539866244,
+   "p": 0.004975124378109453,
+   "tau": 0.02823175929433473,
+   "leaf_excess": [
+    1.6223666162656292,
+    11.36404577034039,
+    0.29864060250996527,
+    -0.03305989975027057,
+    3.176886885829709,
+    58.62676694613211,
+    68.69300556619635,
+    0.12500028024982193,
+    0.051057948145932994,
+    -0.08107474551310112,
+    0.2686166286739631,
+    0.025162619437395985,
+    12.61886308887064,
+    8.623379649720754,
+    -0.8266292253848917,
+    17.072783742998865
+   ],
+   "forward": {
+    "tau_est": 0.031603694892668406,
+    "gain": -0.006751530875670079,
+    "ci": [
+     -0.01225077028964565,
+     -0.0013945871758319326
+    ]
+   }
+  },
+  "player|who|K16": {
+   "T": 3579.503304671974,
+   "perm_mean": 2958.7042441263907,
+   "perm_sd": 97.41071529023628,
+   "p": 0.004975124378109453,
+   "tau": 0.052507547185447534,
+   "leaf_excess": [
+    -0.6238882659432168,
+    -0.8031153032020697,
+    15.125701830888403,
+    -11.545433392497415,
+    29.958922416186965,
+    47.40113726397598,
+    51.61664845521858,
+    15.786023475857675,
+    90.23896889861373,
+    79.05246510677063,
+    -34.1044007559004,
+    -62.11573837399173,
+    112.81954473308687,
+    126.86664747897811,
+    44.03784494239346,
+    117.08773203514858
+   ],
+   "forward": {
+    "tau_est": 0.03684611090266054,
+    "gain": 0.014972686790097754,
+    "ci": [
+     0.007261276797097165,
+     0.022548630833606913
+    ]
+   }
+  },
+  "slot|who|K32": {
+   "T": 1843.0487251949069,
+   "perm_mean": 1588.7101716627874,
+   "perm_sd": 29.16365874186147,
+   "p": 0.004975124378109453,
+   "tau": 0.03342310981859485,
+   "leaf_excess": [
+    2.916267746001699,
+    16.094175574092574,
+    0.6567322909641111,
+    -0.04236934955890159,
+    4.141662318380876,
+    63.638767040416354,
+    69.35644499141142,
+    0.3423316332119633,
+    0.4154683305068394,
+    -0.034895183197713564,
+    0.36413545505991624,
+    0.04856678067393329,
+    10.919724224848942,
+    8.449747800941878,
+    1.3225860375925436,
+    0.00528949945466195,
+    1.6700235207417315,
+    10.284374846141603,
+    -0.001519183599804852,
+    0.22405170117088863,
+    4.012096124978527,
+    7.7584748531741,
+    3.4121938528719866,
+    0.413901710218342,
+    -3.5608999561214603,
+    3.7339335316676197,
+    0.3635776742273263,
+    0.5236023262274012,
+    0.5997443300734377,
+    -0.3363782312933168,
+    22.771576484595812,
+    23.875164756244985
+   ],
+   "forward": {
+    "tau_est": 0.03758741748383223,
+    "gain": -0.0027201539347382966,
+    "ci": [
+     -0.010726920144268307,
+     0.005295248785061046
+    ]
+   }
+  },
+  "player|who|K32": {
+   "T": 7753.263464379286,
+   "perm_mean": 6910.17204046469,
+   "perm_sd": 152.71348405544455,
+   "p": 0.004975124378109453,
+   "tau": 0.06117679432435896,
+   "leaf_excess": [
+    -0.4497191472618134,
+    0.30294893472143514,
+    13.470921032384993,
+    -7.717008704273525,
+    28.341094262334707,
+    61.19720069868765,
+    48.81810716368085,
+    17.463621810841232,
+    82.38853524650281,
+    76.05121059053388,
+    -27.099590971677316,
+    -57.62824630893468,
+    106.1800340046209,
+    103.8219056390204,
+    42.5458741003564,
+    -22.59459315652407,
+    39.31606551958822,
+    -33.792344194365526,
+    -10.364365076864928,
+    37.21958998486042,
+    20.92516179301174,
+    7.5052004497653115,
+    35.47325232301202,
+    -38.98113538894816,
+    69.2068739688516,
+    -52.59530857208617,
+    16.566172735058714,
+    66.01210136224965,
+    14.262665132204802,
+    -0.20231946061875306,
+    89.27255115592777,
+    118.1749669879361
+   ],
+   "forward": {
+    "tau_est": 0.025317437244480878,
+    "gain": 0.012223744207995315,
+    "ci": [
+     0.008046591366249595,
+     0.016731851470314345
+    ]
+   }
+  }
+ }
+}

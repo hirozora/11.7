@@ -1,0 +1,14 @@
+{
+  "comparisons": 52,
+  "max_gain_error": 0.0,
+  "max_interval_error": 0.0,
+  "data": {
+    "matches": 323,
+    "actions": 368732,
+    "evaluation_matches": 133,
+    "evaluation_candidate_rows": 1656101,
+    "evaluation_action_rows": 149978,
+    "candidate_rows": 4067558,
+    "test_match_overlap": 0
+  }
+}

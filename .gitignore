@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+data/raw/
+data/processed/
+external/
+*.npz
+*.npy
+*.pt
+*.parquet
+*.log
+results/**/*.jsonl

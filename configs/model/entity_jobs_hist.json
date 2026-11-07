@@ -1,0 +1,227 @@
+[
+ {
+  "name": "m3_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m3",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m3_c1-3"
+  ]
+ },
+ {
+  "name": "m3_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m3",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m3_c1"
+  ]
+ },
+ {
+  "name": "m3_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m3",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m3_c3"
+  ]
+ },
+ {
+  "name": "m23_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m23",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m23_c1-3"
+  ]
+ },
+ {
+  "name": "m23_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m23",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m23_c1"
+  ]
+ },
+ {
+  "name": "m23_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m23",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m23_c3"
+  ]
+ },
+ {
+  "name": "m4_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_c1-3"
+  ]
+ },
+ {
+  "name": "m4_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_c1"
+  ]
+ },
+ {
+  "name": "m4_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_c3"
+  ]
+ },
+ {
+  "name": "m4_no_knn_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_knn",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_knn_c1-3"
+  ]
+ },
+ {
+  "name": "m4_no_knn_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_knn",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_knn_c1"
+  ]
+ },
+ {
+  "name": "m4_no_knn_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_knn",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_knn_c3"
+  ]
+ },
+ {
+  "name": "m4_no_id_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_id",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_id_c1-3"
+  ]
+ },
+ {
+  "name": "m4_no_id_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_id",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_id_c1"
+  ]
+ },
+ {
+  "name": "m4_no_id_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_id",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_id_c3"
+  ]
+ }
+]

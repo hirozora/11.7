@@ -1,0 +1,9 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json"
+  ],
+  "terms": "results/model/entities_england_only/terms.npz",
+  "kappa": 20,
+  "out": "results/model/entities_england_only/history.npz",
+  "knn": 10
+}

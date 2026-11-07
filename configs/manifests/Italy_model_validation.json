@@ -1,0 +1,350 @@
+[
+ {
+  "match_id": 2576230,
+  "kickoff": 1520767800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576229,
+  "kickoff": 1520776800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576232,
+  "kickoff": 1520776800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576235,
+  "kickoff": 1520776800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576236,
+  "kickoff": 1520776800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576238,
+  "kickoff": 1520776800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576233,
+  "kickoff": 1520787600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576234,
+  "kickoff": 1520797500.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576209,
+  "kickoff": 1521046800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576248,
+  "kickoff": 1521306000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576246,
+  "kickoff": 1521315900.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576245,
+  "kickoff": 1521372600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576239,
+  "kickoff": 1521381600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576241,
+  "kickoff": 1521381600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576242,
+  "kickoff": 1521381600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576243,
+  "kickoff": 1521381600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576247,
+  "kickoff": 1521381600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576240,
+  "kickoff": 1521402300.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576244,
+  "kickoff": 1521402300.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576254,
+  "kickoff": 1522492200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576249,
+  "kickoff": 1522501200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576250,
+  "kickoff": 1522501200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576251,
+  "kickoff": 1522501200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576256,
+  "kickoff": 1522501200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576257,
+  "kickoff": 1522501200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576258,
+  "kickoff": 1522501200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576253,
+  "kickoff": 1522512000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576255,
+  "kickoff": 1522512000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576252,
+  "kickoff": 1522521900.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576220,
+  "kickoff": 1522773000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576222,
+  "kickoff": 1522773000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576227,
+  "kickoff": 1522773000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576223,
+  "kickoff": 1522854000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576221,
+  "kickoff": 1522859400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576224,
+  "kickoff": 1522859400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576228,
+  "kickoff": 1522859400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576266,
+  "kickoff": 1523106000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576259,
+  "kickoff": 1523116800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576263,
+  "kickoff": 1523116800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576264,
+  "kickoff": 1523126700.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576265,
+  "kickoff": 1523183400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576260,
+  "kickoff": 1523192400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576261,
+  "kickoff": 1523192400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576262,
+  "kickoff": 1523192400.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576267,
+  "kickoff": 1523203200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576268,
+  "kickoff": 1523213100.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576278,
+  "kickoff": 1523710800.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576270,
+  "kickoff": 1523721600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576277,
+  "kickoff": 1523721600.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576272,
+  "kickoff": 1523731500.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576276,
+  "kickoff": 1523788200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576269,
+  "kickoff": 1523797200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576271,
+  "kickoff": 1523797200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576273,
+  "kickoff": 1523797200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576275,
+  "kickoff": 1523808000.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576274,
+  "kickoff": 1523817900.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576281,
+  "kickoff": 1523990700.0,
+  "league": "Italy",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2576279,
+  "kickoff": 1524067200.0,
+  "league": "Italy",
+  "split": "model_validation"
+ }
+]

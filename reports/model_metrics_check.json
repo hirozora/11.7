@@ -1,0 +1,107 @@
+{
+  "validation_matches": 278,
+  "validation_targets": 319603,
+  "reachable": 318858,
+  "models": {
+    "R1": {
+      "scores": "results/model/population/r1.npz",
+      "nll": 2.3774798058264306,
+      "top1": 0.1269811154918617,
+      "top3": 0.3464442265604959,
+      "ece": 0.006642808313175341,
+      "cold_bce": 0.2881796210440768,
+      "recent_bce": 0.3341338571439718,
+      "cold_rows": 209849,
+      "recent_rows": 87601,
+      "actor_tied_targets": 5624,
+      "top1_player_id_ties": 0.1270732752821469,
+      "top3_player_id_ties": 0.34654868696476565
+    },
+    "R2": {
+      "scores": "results/model/population/r2.npz",
+      "nll": 2.02196332151909,
+      "top1": 0.26926269987035995,
+      "top3": 0.5921351384895219,
+      "ece": 0.022031824626595566,
+      "cold_bce": 0.26479062137046183,
+      "recent_bce": 0.31406112837435113,
+      "cold_rows": 209849,
+      "recent_rows": 87601,
+      "actor_tied_targets": 199,
+      "top1_player_id_ties": 0.2692653072718341,
+      "top3_player_id_ties": 0.5921221014821513
+    },
+    "M0": {
+      "scores": "results/model/population/m0.npz",
+      "nll": 1.7369586085173023,
+      "top1": 0.36752940366642367,
+      "top3": 0.6998839184863721,
+      "ece": 0.016144184596001466,
+      "cold_bce": 0.23372703682615556,
+      "recent_bce": 0.2870333836837222,
+      "cold_rows": 209849,
+      "recent_rows": 87601,
+      "actor_tied_targets": 10,
+      "top1_player_id_ties": 0.3675309681073081,
+      "top3_player_id_ties": 0.6998839184863721
+    },
+    "M1": {
+      "scores": "results/model/m1/seed20260715/offsets.npz",
+      "nll": 1.074958952663079,
+      "top1": 0.6035550354658749,
+      "top3": 0.8884710093459699,
+      "ece": 0.013480884488959323,
+      "cold_bce": 0.14768502679622247,
+      "recent_bce": 0.2013969816471958,
+      "cold_rows": 209849,
+      "recent_rows": 87601,
+      "actor_tied_targets": 1,
+      "top1_player_id_ties": 0.6035550354658749,
+      "top3_player_id_ties": 0.8884710093459699
+    },
+    "B0-M1": {
+      "scores": "results/model/b0_m1/b0.npz",
+      "nll": 1.0681524191112124,
+      "top1": 0.6052039561581086,
+      "top3": 0.8901355744470484,
+      "ece": 0.010213164432264256,
+      "cold_bce": 0.14758329539244894,
+      "recent_bce": 0.20058483897660961,
+      "cold_rows": 209849,
+      "recent_rows": 87601,
+      "actor_tied_targets": 0,
+      "top1_player_id_ties": 0.6052039561581086,
+      "top3_player_id_ties": 0.8901355744470484
+    }
+  },
+  "m1_scope_comparison": [
+    {
+      "training": "five_leagues",
+      "validation": "five_league_validation",
+      "targets": 319603,
+      "nll": 1.074958952663079,
+      "top1": 0.6035550354658749,
+      "top3": 0.8884710093459699
+    },
+    {
+      "training": "five_leagues",
+      "validation": "England_validation",
+      "targets": 65133,
+      "nll": 1.0924759672696314,
+      "top1": 0.5965178941550366,
+      "top3": 0.8827476087390417
+    },
+    {
+      "training": "England",
+      "validation": "England_validation",
+      "targets": 65133,
+      "nll": 1.1321369735478573,
+      "top1": 0.5816252897916571,
+      "top3": 0.8756544301659681
+    }
+  ],
+  "date": "2026-10-21",
+  "ranking": "exact expectation under random order within equal-score groups",
+  "nll_denominator": "reachable validation targets",
+  "topk_ece_denominator": "all validation targets, unreachable actors count as misses"
+}

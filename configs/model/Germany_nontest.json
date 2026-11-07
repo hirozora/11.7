@@ -1,0 +1,8 @@
+{
+  "data_config": "configs/data/Germany_nontest.json",
+  "train_manifest": "configs/manifests/Germany_model_train.json",
+  "validation_manifest": "configs/manifests/Germany_model_validation.json",
+  "test_manifest": "configs/manifests/Germany_test.json",
+  "out_dir": "data/processed/Germany_nontest/model",
+  "window_events": 32
+}

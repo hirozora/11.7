@@ -1,0 +1,48 @@
+{
+ "league": "Spain",
+ "matches": {
+  "model_train": 2,
+  "model_validation": 1
+ },
+ "events": 5014,
+ "targets": {
+  "model_train": 2106,
+  "model_validation": 1394
+ },
+ "unreachable": {
+  "model_train": 4,
+  "model_validation": 1
+ },
+ "candidate_rows": 38500,
+ "max_candidates": 11,
+ "excluded_pairs": 375,
+ "substitutions": 17,
+ "substitutions_without_incoming_player": 0,
+ "targets_by_unlisted_actor": 0,
+ "history_rows": 83,
+ "without_prior_role": 0.927710843373494,
+ "placeholder_starts": 71,
+ "roles": [
+  "GK",
+  "backmid/centre",
+  "backmid/halfL",
+  "backmid/halfR",
+  "backmid/wideL",
+  "backmid/wideR",
+  "deep/centre",
+  "deep/halfL",
+  "deep/halfR",
+  "deep/wideL",
+  "deep/wideR",
+  "front/centre",
+  "front/halfL",
+  "front/halfR",
+  "front/wideL",
+  "front/wideR",
+  "mid/centre",
+  "mid/halfL",
+  "mid/halfR",
+  "mid/wideL",
+  "mid/wideR"
+ ]
+}

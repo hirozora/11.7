@@ -1,0 +1,16 @@
+{
+ "config": "configs/model/m1_no_history_england_only.json",
+ "fold": "0",
+ "seed": 20260715,
+ "train_targets": 241815,
+ "train_matches": 212,
+ "predict_targets": 61253,
+ "validation_targets": 64975,
+ "urgency_mean": -0.013699416071176529,
+ "urgency_sd": 0.740227997303009,
+ "parameters": 108189,
+ "steps_per_epoch": 106,
+ "best_epoch": 120,
+ "best_validation_nll": 1.164732575416565,
+ "wall_seconds": 728.7
+}

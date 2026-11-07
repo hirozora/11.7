@@ -1,0 +1,437 @@
+[
+ {
+  "name": "m2_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_c1-3"
+  ]
+ },
+ {
+  "name": "m2_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_c1"
+  ]
+ },
+ {
+  "name": "m2_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_c3"
+  ]
+ },
+ {
+  "name": "m2_main_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_main",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_main_c1-3"
+  ]
+ },
+ {
+  "name": "m2_main_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_main",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_main_c1"
+  ]
+ },
+ {
+  "name": "m2_main_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_main",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_main_c3"
+  ]
+ },
+ {
+  "name": "m2_no_types_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_no_types",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_no_types_c1-3"
+  ]
+ },
+ {
+  "name": "m2_no_types_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_no_types",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_no_types_c1"
+  ]
+ },
+ {
+  "name": "m2_no_types_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_no_types",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_no_types_c3"
+  ]
+ },
+ {
+  "name": "m2_no_opp_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_no_opp",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_no_opp_c1-3"
+  ]
+ },
+ {
+  "name": "m2_no_opp_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_no_opp",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_no_opp_c1"
+  ]
+ },
+ {
+  "name": "m2_no_opp_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m2_no_opp",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m2_no_opp_c3"
+  ]
+ },
+ {
+  "name": "d_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "d",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/d_c1-3"
+  ]
+ },
+ {
+  "name": "d_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "d",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/d_c1"
+  ]
+ },
+ {
+  "name": "d_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "d",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/d_c3"
+  ]
+ },
+ {
+  "name": "m3_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m3",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m3_c1-3"
+  ]
+ },
+ {
+  "name": "m3_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m3",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m3_c1"
+  ]
+ },
+ {
+  "name": "m3_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m3",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m3_c3"
+  ]
+ },
+ {
+  "name": "m23_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m23",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m23_c1-3"
+  ]
+ },
+ {
+  "name": "m23_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m23",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m23_c1"
+  ]
+ },
+ {
+  "name": "m23_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m23",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m23_c3"
+  ]
+ },
+ {
+  "name": "m4_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_c1-3"
+  ]
+ },
+ {
+  "name": "m4_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_c1"
+  ]
+ },
+ {
+  "name": "m4_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_c3"
+  ]
+ },
+ {
+  "name": "m4_no_knn_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_knn",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_knn_c1-3"
+  ]
+ },
+ {
+  "name": "m4_no_knn_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_knn",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_knn_c1"
+  ]
+ },
+ {
+  "name": "m4_no_knn_c3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_knn",
+   "--ridge-scale",
+   "3.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_knn_c3"
+  ]
+ },
+ {
+  "name": "m4_no_id_c1-3",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_id",
+   "--ridge-scale",
+   "0.3333333333333333",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_id_c1-3"
+  ]
+ },
+ {
+  "name": "m4_no_id_c1",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "m4_no_id",
+   "--ridge-scale",
+   "1.0",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/m4_no_id_c1"
+  ]
+ }
+]

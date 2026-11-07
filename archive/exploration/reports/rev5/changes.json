@@ -1,0 +1,302 @@
+{
+ "England_train": {
+  "actions": 303599,
+  "with_coinciding_opponent_record": 30457,
+  "with_coinciding_own_record": 6105,
+  "changed": {
+   "prev_event": 4871,
+   "steps_since_change": 1985,
+   "phase": 1908,
+   "opp_last_event": 17255,
+   "possession_start": 33752,
+   "poss_start_x": 1935,
+   "poss_share_5": 7489,
+   "own_shots_5": 0,
+   "opp_shots_5": 555,
+   "score_diff": 1
+  },
+  "steps01_rows_original": 118525,
+  "steps01_opponent_level_changed": 10811,
+  "steps01_membership_changed": 1280,
+  "possessions": 82578,
+  "possessions_acquisition_changed": 3151,
+  "possession_transitions": {
+   "other -> duel_won": 695,
+   "interception -> other": 624,
+   "duel_won -> other": 616,
+   "other -> opp_pass_lost": 366,
+   "duel_won -> opp_pass_lost": 361,
+   "opp_pass_lost -> other": 339,
+   "duel_won -> opp_clearance": 70,
+   "opp_clearance -> other": 54
+  },
+  "opponent_level_transitions": {
+   "duel -> pass": 6758,
+   "duel -> interception": 2562,
+   "duel -> other_on_ball": 1125,
+   "duel -> set_piece": 1115,
+   "pass -> duel": 1058,
+   "duel -> clearance": 686,
+   "duel -> foul": 664,
+   "duel -> shot": 533
+  },
+  "candidates": {
+   "actions": 303599,
+   "actions_without_actor_in_set": 77,
+   "rows_on_by_tolerance_only": 14510,
+   "rows": 3348914,
+   "actions_in_who_rows": 303522,
+   "prior_role_defined": 0.9473265064435814
+  }
+ },
+ "France": {
+  "actions": 361807,
+  "with_coinciding_opponent_record": 37389,
+  "with_coinciding_own_record": 6509,
+  "changed": {
+   "prev_event": 6010,
+   "steps_since_change": 2426,
+   "phase": 2355,
+   "opp_last_event": 21269,
+   "possession_start": 40190,
+   "poss_start_x": 2364,
+   "poss_share_5": 9378,
+   "own_shots_5": 0,
+   "opp_shots_5": 579,
+   "score_diff": 6
+  },
+  "steps01_rows_original": 138606,
+  "steps01_opponent_level_changed": 12765,
+  "steps01_membership_changed": 1627,
+  "possessions": 96674,
+  "possessions_acquisition_changed": 3878,
+  "possession_transitions": {
+   "other -> duel_won": 895,
+   "duel_won -> other": 741,
+   "interception -> other": 717,
+   "other -> opp_pass_lost": 507,
+   "duel_won -> opp_pass_lost": 441,
+   "opp_pass_lost -> other": 399,
+   "duel_won -> opp_clearance": 81,
+   "opp_clearance -> other": 51
+  },
+  "opponent_level_transitions": {
+   "duel -> pass": 8227,
+   "duel -> interception": 2926,
+   "duel -> other_on_ball": 1526,
+   "duel -> set_piece": 1251,
+   "pass -> duel": 1153,
+   "duel -> foul": 1119,
+   "duel -> clearance": 813,
+   "duel -> shot": 753
+  },
+  "candidates": {
+   "actions": 361807,
+   "actions_without_actor_in_set": 58,
+   "rows_on_by_tolerance_only": 17650,
+   "rows": 3986537,
+   "actions_in_who_rows": 361749,
+   "prior_role_defined": 0.952612505540523
+  }
+ },
+ "Germany": {
+  "actions": 295655,
+  "with_coinciding_opponent_record": 31242,
+  "with_coinciding_own_record": 6124,
+  "changed": {
+   "prev_event": 5237,
+   "steps_since_change": 2184,
+   "phase": 2104,
+   "opp_last_event": 17724,
+   "possession_start": 34243,
+   "poss_start_x": 2117,
+   "poss_share_5": 8239,
+   "own_shots_5": 0,
+   "opp_shots_5": 486,
+   "score_diff": 4
+  },
+  "steps01_rows_original": 118510,
+  "steps01_opponent_level_changed": 11190,
+  "steps01_membership_changed": 1422,
+  "possessions": 82966,
+  "possessions_acquisition_changed": 3447,
+  "possession_transitions": {
+   "other -> duel_won": 794,
+   "interception -> other": 630,
+   "duel_won -> other": 613,
+   "other -> opp_pass_lost": 471,
+   "duel_won -> opp_pass_lost": 384,
+   "opp_pass_lost -> other": 381,
+   "duel_won -> opp_clearance": 70,
+   "opp_clearance -> other": 58
+  },
+  "opponent_level_transitions": {
+   "duel -> pass": 7015,
+   "duel -> interception": 2374,
+   "duel -> other_on_ball": 1160,
+   "pass -> duel": 1041,
+   "duel -> foul": 1034,
+   "duel -> set_piece": 953,
+   "duel -> clearance": 624,
+   "duel -> shot": 519
+  },
+  "candidates": {
+   "actions": 295655,
+   "actions_without_actor_in_set": 96,
+   "rows_on_by_tolerance_only": 15739,
+   "rows": 3261926,
+   "actions_in_who_rows": 295559,
+   "prior_role_defined": 0.9490071203332019
+  }
+ },
+ "Italy": {
+  "actions": 378524,
+  "with_coinciding_opponent_record": 36303,
+  "with_coinciding_own_record": 6625,
+  "changed": {
+   "prev_event": 5953,
+   "steps_since_change": 2351,
+   "phase": 2274,
+   "opp_last_event": 20946,
+   "possession_start": 41090,
+   "poss_start_x": 2287,
+   "poss_share_5": 9170,
+   "own_shots_5": 0,
+   "opp_shots_5": 643,
+   "score_diff": 1
+  },
+  "steps01_rows_original": 141235,
+  "steps01_opponent_level_changed": 12612,
+  "steps01_membership_changed": 1522,
+  "possessions": 98731,
+  "possessions_acquisition_changed": 3689,
+  "possession_transitions": {
+   "other -> duel_won": 836,
+   "duel_won -> other": 738,
+   "interception -> other": 682,
+   "other -> opp_pass_lost": 504,
+   "duel_won -> opp_pass_lost": 429,
+   "opp_pass_lost -> other": 349,
+   "duel_won -> opp_clearance": 74,
+   "opp_clearance -> other": 49
+  },
+  "opponent_level_transitions": {
+   "duel -> pass": 8386,
+   "duel -> interception": 2944,
+   "duel -> other_on_ball": 1354,
+   "pass -> duel": 1167,
+   "duel -> foul": 1122,
+   "duel -> set_piece": 1065,
+   "duel -> shot": 775,
+   "duel -> clearance": 691
+  },
+  "candidates": {
+   "actions": 378524,
+   "actions_without_actor_in_set": 136,
+   "rows_on_by_tolerance_only": 19622,
+   "rows": 4172596,
+   "actions_in_who_rows": 378388,
+   "prior_role_defined": 0.9522484323907706
+  }
+ },
+ "Spain": {
+  "actions": 358482,
+  "with_coinciding_opponent_record": 36577,
+  "with_coinciding_own_record": 6897,
+  "changed": {
+   "prev_event": 5810,
+   "steps_since_change": 2326,
+   "phase": 2263,
+   "opp_last_event": 20899,
+   "possession_start": 40853,
+   "poss_start_x": 2267,
+   "poss_share_5": 9026,
+   "own_shots_5": 0,
+   "opp_shots_5": 573,
+   "score_diff": 2
+  },
+  "steps01_rows_original": 138484,
+  "steps01_opponent_level_changed": 12615,
+  "steps01_membership_changed": 1491,
+  "possessions": 96579,
+  "possessions_acquisition_changed": 3806,
+  "possession_transitions": {
+   "other -> duel_won": 847,
+   "interception -> other": 756,
+   "duel_won -> other": 753,
+   "duel_won -> opp_pass_lost": 457,
+   "other -> opp_pass_lost": 452,
+   "opp_pass_lost -> other": 377,
+   "duel_won -> opp_clearance": 68,
+   "opp_clearance -> other": 54
+  },
+  "opponent_level_transitions": {
+   "duel -> pass": 8092,
+   "duel -> interception": 2907,
+   "duel -> other_on_ball": 1377,
+   "duel -> foul": 1290,
+   "pass -> duel": 1237,
+   "duel -> set_piece": 1235,
+   "duel -> shot": 748,
+   "duel -> clearance": 685
+  },
+  "candidates": {
+   "actions": 358482,
+   "actions_without_actor_in_set": 39,
+   "rows_on_by_tolerance_only": 18456,
+   "rows": 3955428,
+   "actions_in_who_rows": 358443,
+   "prior_role_defined": 0.95010855968052
+  }
+ },
+ "England_nontest": {
+  "actions": 368732,
+  "with_coinciding_opponent_record": 37304,
+  "with_coinciding_own_record": 7579,
+  "changed": {
+   "prev_event": 6082,
+   "steps_since_change": 2508,
+   "phase": 2404,
+   "opp_last_event": 21151,
+   "possession_start": 41585,
+   "poss_start_x": 2440,
+   "poss_share_5": 9310,
+   "own_shots_5": 0,
+   "opp_shots_5": 654,
+   "score_diff": 2
+  },
+  "steps01_rows_original": 145090,
+  "steps01_opponent_level_changed": 13343,
+  "steps01_membership_changed": 1608,
+  "possessions": 101160,
+  "possessions_acquisition_changed": 3916,
+  "possession_transitions": {
+   "other -> duel_won": 852,
+   "interception -> other": 777,
+   "duel_won -> other": 761,
+   "other -> opp_pass_lost": 467,
+   "duel_won -> opp_pass_lost": 443,
+   "opp_pass_lost -> other": 435,
+   "duel_won -> opp_clearance": 83,
+   "opp_clearance -> other": 60
+  },
+  "opponent_level_transitions": {
+   "duel -> pass": 8315,
+   "duel -> interception": 3115,
+   "duel -> other_on_ball": 1365,
+   "duel -> set_piece": 1358,
+   "pass -> duel": 1313,
+   "duel -> clearance": 825,
+   "duel -> foul": 795,
+   "duel -> shot": 643
+  },
+  "candidates": {
+   "actions": 368732,
+   "actions_without_actor_in_set": 111,
+   "rows_on_by_tolerance_only": 17767,
+   "rows": 4067558,
+   "actions_in_who_rows": 368621,
+   "prior_role_defined": 0.9558587732492075
+  }
+ }
+}

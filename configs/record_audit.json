@@ -1,0 +1,30 @@
+{
+  "raw_dir": "data/raw",
+  "manifests": {
+    "England": "configs/manifests/England_nontest.json",
+    "France": "configs/manifests/France_nontest.json",
+    "Germany": "configs/manifests/Germany_nontest.json",
+    "Italy": "configs/manifests/Italy_nontest.json",
+    "Spain": "configs/manifests/Spain_nontest.json"
+  },
+  "windows": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "out_json": "reports/record_audit.json",
+  "out_md": "reports/record_audit.md"
+}

@@ -1,0 +1,18 @@
+{
+ "snapshots": 71,
+ "nodes": 54427,
+ "edges": 433333,
+ "candidate_rows_without_player_node": 185258,
+ "candidate_rows_without_slot_node": 300500,
+ "edges_by_type": {
+  "0": 69474,
+  "1": 22681,
+  "2": 22681,
+  "3": 28829,
+  "4": 1378,
+  "5": 288290
+ },
+ "kappa": 20,
+ "knn": 10,
+ "features": 44
+}

@@ -1,0 +1,88 @@
+{
+  "raw_dir": "data/raw",
+  "league": "Italy",
+  "train_manifest": "configs/manifests/Italy_nontest.json",
+  "manifest_split": "nontest",
+  "actions_path": "data/processed/Italy_nontest/actions.parquet",
+  "onpitch_path": "data/processed/Italy_nontest/onpitch.parquet",
+  "player_match_path": "data/processed/Italy_nontest/player_match.parquet",
+  "build_summary_path": "data/processed/Italy_nontest/summary.json",
+  "big_six": [
+    "Juventus",
+    "Roma",
+    "Napoli",
+    "Atalanta",
+    "Lazio",
+    "Milan"
+  ],
+  "goal_overrides": [],
+  "position_overrides": [
+    {
+      "event_id": 198907641,
+      "x": 0,
+      "y": 47,
+      "reason": "Italy match 2576042, touch recorded at x = -1 (outside the pitch); set to the goal line x = 0"
+    }
+  ],
+  "onpitch_tolerance_minutes": 1.0,
+  "fine_role_min_events": 10,
+  "variables_all": [
+    "phase",
+    "prev_event",
+    "time_bin",
+    "score_state",
+    "venue",
+    "opponent_class",
+    "opp_last_event",
+    "possession_start",
+    "steps_since_change"
+  ],
+  "momentum_minutes": 5.0,
+  "since_cap": 200,
+  "seed": 20261018,
+  "reference_pseudocount": 1.0,
+  "back_pass_dx": 5.0,
+  "forward_dx": 15.0,
+  "high_regain_x": 50.0,
+  "eval_from": 20,
+  "team_targets": [
+    "long_pass",
+    "cross",
+    "forward",
+    "back_pass"
+  ],
+  "alpha_beta": 1.0,
+  "v_min": 1.0,
+  "type_ridge": 1.0,
+  "team_type_K": 3,
+  "forward_permutations": 100,
+  "workers": 4,
+  "players_json": "data/raw/entities/players.json",
+  "who_path": "data/processed/Italy_nontest/candidates.npz",
+  "offsets_path": "data/processed/Italy_nontest/who_offsets.npz",
+  "style_alpha_grid": [
+    1,
+    3,
+    10,
+    30,
+    100,
+    300,
+    1000,
+    3000,
+    10000,
+    30000
+  ],
+  "bootstrap": 10000,
+  "role_variants": [
+    "prior"
+  ],
+  "event_offsets_path": "data/processed/Italy_nontest/event_offsets.npz",
+  "results_dir": "results/learnability/Italy_nontest",
+  "coinciding_path": "data/processed/Italy_nontest/coinciding.parquet",
+  "causal_counts_path": "data/processed/Italy_nontest/candidate_counts.json",
+  "coincide_seconds": 2.0,
+  "coincide_tolerance": 5.0,
+  "exclude_own_in_possession_start": false,
+  "first_action_interception": true,
+  "card_overrides": []
+}

@@ -1,0 +1,151 @@
+{
+ "title": "英超验证期：各结构的贡献",
+ "scopes": [
+  "configs/model/England_nontest.json"
+ ],
+ "models": {
+  "R1英": "results/model/population_england_only/r1.npz",
+  "R2英": "results/model/population_england_only/r2.npz",
+  "M0英": "results/model/population_england_only/m0.npz",
+  "M1⁻英": "results/model/m1_no_history_england_only/seed20260715/offsets.npz",
+  "M1英": "results/model/m1_england_only/seed20260715/offsets.npz",
+  "B0-M1⁻英": "results/model/b0_m1_no_history_england_only/b0.npz",
+  "B0-M1英": "results/model/b0_m1_england_only/b0.npz",
+  "M2英": "results/model/entity_england_only/m2_c3/scores.npz",
+  "M0五": "results/model/england_rows/m0.npz",
+  "M0p五": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m0p.npz",
+  "M1五": "results/model/england_rows/m1.npz",
+  "B0-M1五": "results/model/england_rows/b0_m1.npz",
+  "M2五": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m2.npz",
+  "M2-主效应": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m2_main.npz",
+  "M2-无类型": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m2_no_types.npz",
+  "M2-无对方事件": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m2_no_opp.npz",
+  "M3": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m3.npz",
+  "M2+3": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m23.npz",
+  "M4": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m4.npz",
+  "M4-无相似边": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m4_no_knn.npz",
+  "M4-无ID": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/m4_no_id.npz",
+  "D": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_rows/d.npz"
+ },
+ "comparisons": [
+  [
+   "R2英",
+   "R1英",
+   "a1 赛前位置"
+  ],
+  [
+   "M0英",
+   "R2英",
+   "a2 情境+状态 GBDT"
+  ],
+  [
+   "M1英",
+   "M0英",
+   "a3 序列模型+本场池化"
+  ],
+  [
+   "M0p五",
+   "M0五",
+   "a4 本场池化"
+  ],
+  [
+   "M1五",
+   "M0p五",
+   "a5 窗口序列与模型"
+  ],
+  [
+   "M1英",
+   "M1⁻英",
+   "h1 人工历史摘要"
+  ],
+  [
+   "B0-M1⁻英",
+   "M1⁻英",
+   "h2 学出的历史(M1⁻)"
+  ],
+  [
+   "B0-M1英",
+   "M1英",
+   "h3 学出的历史(M1,英)"
+  ],
+  [
+   "B0-M1五",
+   "M1五",
+   "h4 学出的历史(M1,五)"
+  ],
+  [
+   "M2五",
+   "B0-M1五",
+   "e1 层级嵌入vs独立(A4)"
+  ],
+  [
+   "M2五",
+   "M2-主效应",
+   "e2 交互项(A2)"
+  ],
+  [
+   "M2五",
+   "M2-无类型",
+   "e3 类型层(A3)"
+  ],
+  [
+   "M2五",
+   "M2-无对方事件",
+   "e4 对方事件项"
+  ],
+  [
+   "M3",
+   "M1五",
+   "e5 只用历史统计"
+  ],
+  [
+   "M2+3",
+   "M2五",
+   "e6 统计加到ID上"
+  ],
+  [
+   "M4",
+   "M2+3",
+   "e7 消息传递(A5)"
+  ],
+  [
+   "M4",
+   "M4-无相似边",
+   "e8 相似边"
+  ],
+  [
+   "M4-无ID",
+   "M3",
+   "e9 无ID时的消息传递"
+  ],
+  [
+   "M4",
+   "M2五",
+   "e10 图vsID(A6)"
+  ],
+  [
+   "D",
+   "M2五",
+   "e11 无约束D"
+  ],
+  [
+   "M1五",
+   "M1英",
+   "t1 五联赛合训(M1)"
+  ],
+  [
+   "M2五",
+   "M2英",
+   "t2 五联赛合训(M2)"
+  ],
+  [
+   "M2英",
+   "B0-M1英",
+   "t3 层级嵌入vs独立(英)"
+  ]
+ ],
+ "bootstrap": 10000,
+ "seed": 20261022,
+ "out_json": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_structures.json",
+ "out_md": "/tmp/claude-1003/-home-li-football/796c4bbc-5dce-4d92-993b-980d7b4ff879/scratchpad/england_structures.md"
+}

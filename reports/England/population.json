@@ -1,0 +1,168 @@
+{
+ "league": "England",
+ "comparisons": {
+  "who|population|steps_phase": {
+   "gain": 2.9425589046720924,
+   "ci": [
+    2.7614951547025703,
+    3.11979889963218
+   ],
+   "rows": 1656101,
+   "matches": 133
+  },
+  "who|population|opponent_event": {
+   "gain": 0.5174576122781424,
+   "ci": [
+    0.385359742390243,
+    0.6462130371682808
+   ],
+   "rows": 1656101,
+   "matches": 133
+  },
+  "who|population|game_state": {
+   "gain": 0.0282462458091475,
+   "ci": [
+    -0.0772130605127146,
+    0.1303581149118466
+   ],
+   "rows": 1656101,
+   "matches": 133
+  },
+  "who|population|minutes_on": {
+   "gain": 0.4617205355682533,
+   "ci": [
+    0.35771010751660226,
+    0.5631539808510231
+   ],
+   "rows": 1656101,
+   "matches": 133
+  },
+  "who|game_state_form": {
+   "gain": 0.056818599964975014,
+   "ci": [
+    0.007053188705521864,
+    0.10666406716560675
+   ],
+   "rows": 1656101,
+   "matches": 133
+  },
+  "event|population|long_pass|steps_phase": {
+   "gain": 0.9239467220356125,
+   "ci": [
+    0.6900243152060991,
+    1.1519996297927804
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|long_pass|game_state": {
+   "gain": 1.014713539413853,
+   "ci": [
+    0.5289433230301717,
+    1.49803894191139
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|long_pass|possession_start": {
+   "gain": 1.8291632753877762,
+   "ci": [
+    1.3988927669945397,
+    2.2570035524803798
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|cross|steps_phase": {
+   "gain": 0.6423554553431705,
+   "ci": [
+    0.35178579265499654,
+    0.9364403249673259
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|cross|game_state": {
+   "gain": 1.0370880659367723,
+   "ci": [
+    0.6571386157195864,
+    1.4137797523132747
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|cross|possession_start": {
+   "gain": 1.1073598368166127,
+   "ci": [
+    0.7168221168705001,
+    1.5085531934684393
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|forward|steps_phase": {
+   "gain": 1.4163705870461578,
+   "ci": [
+    1.125695085183414,
+    1.7124871153950298
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|forward|game_state": {
+   "gain": 0.77103858827645,
+   "ci": [
+    0.3196885048747151,
+    1.2321114166329517
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|forward|possession_start": {
+   "gain": 1.8896739206840583,
+   "ci": [
+    1.519085509466955,
+    2.2633092585467143
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|back_pass|steps_phase": {
+   "gain": 1.2285416803491942,
+   "ci": [
+    0.9230088430496852,
+    1.5406032697552716
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|back_pass|game_state": {
+   "gain": 0.7300973363713231,
+   "ci": [
+    0.36095538404247507,
+    1.0985976216979956
+   ],
+   "rows": 149978,
+   "matches": 133
+  },
+  "event|population|back_pass|possession_start": {
+   "gain": 0.8413632620335382,
+   "ci": [
+    0.5520412191997657,
+    1.127134836998433
+   ],
+   "rows": 149978,
+   "matches": 133
+  }
+ },
+ "game_state_form_beta": {
+  "const": -0.002585376802011381,
+  "U": -0.009528510100238002,
+  "U x GK": 0.14042254225739723,
+  "U x CB": 0.09808578254251735,
+  "U x FB": 0.06597989993269854,
+  "U x DM": 0.017517419451877028,
+  "U x WIDE": 0.031546837296920684,
+  "U x FW": -0.0454833841485381
+ }
+}

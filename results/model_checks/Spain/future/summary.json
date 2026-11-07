@@ -1,0 +1,129 @@
+{
+  "matches": 3,
+  "first_kickoff": 1503080100.0,
+  "last_kickoff": 1520176500.0,
+  "actions": 3500,
+  "action_counts": {
+    "short_pass": 2087,
+    "take_on": 440,
+    "long_pass": 263,
+    "touch": 253,
+    "head_pass": 149,
+    "clearance": 89,
+    "cross": 86,
+    "shot": 57,
+    "through_ball": 42,
+    "carry": 34
+  },
+  "actor_outside_onpitch_interval": 0,
+  "card_events_of_unlisted_players": 0,
+  "dropped_without_player": {
+    "touch": 1,
+    "take_on": 7,
+    "short_pass": 7
+  },
+  "scores_checked": 3,
+  "actions_with_coinciding_opponent_record": 313,
+  "actions_with_coinciding_own_record": 48,
+  "levels": {
+    "phase": {
+      "early": 1388,
+      "settled": 1299,
+      "first": 813
+    },
+    "prev_event": {
+      "own": 2687,
+      "opp_pass": 498,
+      "opp_other_on_ball": 180,
+      "opp_set_piece": 77,
+      "opp_clearance": 32,
+      "opp_shot": 13,
+      "opp_goalkeeper": 7,
+      "period_start": 6
+    },
+    "time_bin": {
+      "first_half": 1725,
+      "second_half_to_75": 1020,
+      "after_75": 755
+    },
+    "score_state": {
+      "leading": 1384,
+      "trailing": 1322,
+      "drawing": 794
+    },
+    "venue": {
+      "home": 1860,
+      "away": 1640
+    },
+    "opponent_class": {
+      "other": 2106,
+      "big_six": 1394
+    },
+    "opp_last_event": {
+      "duel": 1294,
+      "pass": 1216,
+      "interception": 368,
+      "foul": 182,
+      "shot": 105,
+      "set_piece": 100,
+      "other_on_ball": 89,
+      "clearance": 77,
+      "none": 30,
+      "offside": 23,
+      "goalkeeper": 16
+    },
+    "possession_start": {
+      "opp_pass_lost": 1161,
+      "other": 576,
+      "restart_out": 534,
+      "duel_won": 508,
+      "interception": 410,
+      "opp_clearance": 125,
+      "after_opp_shot": 95,
+      "restart_foul": 48,
+      "period_start": 43
+    },
+    "steps_since_change": {
+      "6+": 843,
+      "0": 813,
+      "3-5": 801,
+      "1": 585,
+      "2": 458
+    },
+    "acquisition_mode": {
+      "opp_pass_lost": 992,
+      "interception": 634,
+      "other": 549,
+      "restart_out": 530,
+      "duel_won": 503,
+      "opp_clearance": 121,
+      "after_opp_shot": 80,
+      "restart_foul": 48,
+      "period_start": 43
+    }
+  },
+  "actor_fine_role": {
+    "front/centre": 514,
+    "backmid/centre": 394,
+    "mid/centre": 374,
+    "deep/halfR": 305,
+    "backmid/wideL": 296,
+    "deep/halfL": 253,
+    "mid/halfR": 220,
+    "front/halfR": 179,
+    "backmid/wideR": 171,
+    "mid/halfL": 169,
+    "mid/wideR": 152,
+    "front/halfL": 103,
+    "backmid/halfR": 96,
+    "GK": 90,
+    "front/wideR": 65,
+    "mid/wideL": 62,
+    "deep/centre": 45,
+    "unassigned": 12
+  },
+  "team_matches_by_back_line": {
+    "bl2": 5,
+    "bl3": 1
+  }
+}

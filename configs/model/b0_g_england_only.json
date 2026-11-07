@@ -1,0 +1,16 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json"
+  ],
+  "terms": "results/model/entities_england_only/terms.npz",
+  "offsets": "results/model/population_england_only/m0.npz",
+  "out_dir": "results/model/b0_g_england_only",
+  "lambda_grid": [
+    10,
+    100,
+    1000,
+    10000,
+    100000
+  ],
+  "workers": 10
+}

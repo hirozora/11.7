@@ -1,0 +1,9 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json"
+  ],
+  "folds": 5,
+  "fold_seed": 20261021,
+  "out_dir": "results/model/population_england_only",
+  "m0_candidate_columns": 10
+}

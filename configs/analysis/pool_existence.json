@@ -1,0 +1,24 @@
+{
+  "leagues": [
+    "France",
+    "Germany",
+    "Italy",
+    "Spain"
+  ],
+  "results_dirs": {
+    "France": "results/existence/France_nontest",
+    "Germany": "results/existence/Germany_nontest",
+    "Italy": "results/existence/Italy_nontest",
+    "Spain": "results/existence/Spain_nontest"
+  },
+  "family_json": "configs/families.json",
+  "reference_json": "results/reference/england.json",
+  "eligibility_json": "configs/confirmation_eligibility.json",
+  "seed": 20261018,
+  "bootstrap": 10000,
+  "p1_permutations": 20000,
+  "p1_threshold": 0.8,
+  "ty1_ratio_max": 0.8,
+  "out_json": "results/existence/pooled.json",
+  "out_md": "results/existence/pooled.md"
+}

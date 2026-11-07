@@ -1,0 +1,64 @@
+{
+ "title": "球员视角的类型预测：T0–T3（英超单独训练，英超验证期，条件 A）",
+ "scopes": [
+  "configs/model/England_nontest.json"
+ ],
+ "models": {
+  "T0 只用情境": {
+   "predictions": "results/model/type_england_only/t0/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "T1 情境+候选人注意力汇总": {
+   "predictions": "results/model/type_england_only/t1/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "T1w 同上+执行者损失": {
+   "predictions": "results/model/type_england_only/t1w/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "T2 按预测执行者分布加权": {
+   "predictions": "results/model/type_england_only/t2/predictions.npz",
+   "array": "type_log_probs"
+  },
+  "T3 真实执行者（上限诊断）": {
+   "predictions": "results/model/type_england_only/t2/predictions.npz",
+   "array": "type_log_probs_true_actor"
+  }
+ },
+ "comparisons": [
+  [
+   "T1 情境+候选人注意力汇总",
+   "T0 只用情境",
+   "球员建模"
+  ],
+  [
+   "T1w 同上+执行者损失",
+   "T1 情境+候选人注意力汇总",
+   "执行者监督"
+  ],
+  [
+   "T2 按预测执行者分布加权",
+   "T1w 同上+执行者损失",
+   "显式执行者加权"
+  ],
+  [
+   "T2 按预测执行者分布加权",
+   "T0 只用情境",
+   "合计（T2 对 T0）"
+  ],
+  [
+   "T3 真实执行者（上限诊断）",
+   "T2 按预测执行者分布加权",
+   "执行者预测不准的损失"
+  ],
+  [
+   "T3 真实执行者（上限诊断）",
+   "T0 只用情境",
+   "上限（T3 对 T0）"
+  ]
+ ],
+ "bootstrap": 10000,
+ "seed": 20261026,
+ "out_json": "results/model/type_england_only/eval.json",
+ "out_md": "results/model/type_england_only/eval.md"
+}

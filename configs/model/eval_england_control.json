@@ -1,0 +1,66 @@
+{
+ "title": "英超单独训练的对照（英超验证期）",
+ "note": "M2 英超单独训练 is the England-only M2 with the ridge scale chosen in results/model/entity_england_only/selected.json; the five-league rows come from scripts/run_model_dev.sh england_rows <tag of the five-league M2's chosen c>",
+ "scopes": [
+  "configs/model/England_nontest.json"
+ ],
+ "models": {
+  "M0 五联赛训练": "results/model/england_rows/m0.npz",
+  "M0 英超单独训练": "results/model/population_england_only/m0.npz",
+  "M1 五联赛训练": "results/model/england_rows/m1.npz",
+  "M1 英超单独训练": "results/model/m1_england_only/seed20260715/offsets.npz",
+  "B0-M1 五联赛训练": "results/model/england_rows/b0_m1.npz",
+  "B0-M1 英超单独训练": "results/model/b0_m1_england_only/b0.npz",
+  "M2 五联赛训练": "results/model/england_rows/m2.npz",
+  "M2 英超单独训练": {
+   "variant": "m2"
+  }
+ },
+ "comparisons": [
+  [
+   "M0 五联赛训练",
+   "M0 英超单独训练"
+  ],
+  [
+   "M1 五联赛训练",
+   "M1 英超单独训练"
+  ],
+  [
+   "B0-M1 五联赛训练",
+   "B0-M1 英超单独训练"
+  ],
+  [
+   "M2 五联赛训练",
+   "M2 英超单独训练"
+  ],
+  [
+   "B0-M1 五联赛训练",
+   "M1 五联赛训练"
+  ],
+  [
+   "M2 五联赛训练",
+   "M1 五联赛训练"
+  ],
+  [
+   "M2 五联赛训练",
+   "B0-M1 五联赛训练"
+  ],
+  [
+   "B0-M1 英超单独训练",
+   "M1 英超单独训练"
+  ],
+  [
+   "M2 英超单独训练",
+   "M1 英超单独训练"
+  ],
+  [
+   "M2 英超单独训练",
+   "B0-M1 英超单独训练"
+  ]
+ ],
+ "bootstrap": 10000,
+ "seed": 20261021,
+ "out_json": "results/model/eval/england_control.json",
+ "out_md": "results/model/eval/england_control.md",
+ "selection": "results/model/entity_england_only/selected.json"
+}

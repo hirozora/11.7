@@ -1,0 +1,278 @@
+[
+ {
+  "match_id": 2516948,
+  "kickoff": 1519578000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516947,
+  "kickoff": 1519673400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516958,
+  "kickoff": 1520019000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516959,
+  "kickoff": 1520087400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516960,
+  "kickoff": 1520087400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516961,
+  "kickoff": 1520087400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516962,
+  "kickoff": 1520087400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516963,
+  "kickoff": 1520087400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516955,
+  "kickoff": 1520098200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516956,
+  "kickoff": 1520173800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516957,
+  "kickoff": 1520182800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516970,
+  "kickoff": 1520623800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516964,
+  "kickoff": 1520692200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516966,
+  "kickoff": 1520692200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516967,
+  "kickoff": 1520692200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516971,
+  "kickoff": 1520692200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516969,
+  "kickoff": 1520703000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516972,
+  "kickoff": 1520778600.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516965,
+  "kickoff": 1520787600.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516968,
+  "kickoff": 1520883000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516976,
+  "kickoff": 1521228600.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516977,
+  "kickoff": 1521297000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516978,
+  "kickoff": 1521297000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516979,
+  "kickoff": 1521297000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516980,
+  "kickoff": 1521297000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516981,
+  "kickoff": 1521307800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516973,
+  "kickoff": 1521376200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516975,
+  "kickoff": 1521383400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516974,
+  "kickoff": 1521392400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516983,
+  "kickoff": 1522503000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516986,
+  "kickoff": 1522503000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516987,
+  "kickoff": 1522503000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516989,
+  "kickoff": 1522503000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516990,
+  "kickoff": 1522503000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516982,
+  "kickoff": 1522513800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516984,
+  "kickoff": 1522521000.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516985,
+  "kickoff": 1522589400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516988,
+  "kickoff": 1522598400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516999,
+  "kickoff": 1523039400.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516993,
+  "kickoff": 1523107800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516994,
+  "kickoff": 1523107800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516995,
+  "kickoff": 1523107800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516997,
+  "kickoff": 1523107800.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516998,
+  "kickoff": 1523118600.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516991,
+  "kickoff": 1523194200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ },
+ {
+  "match_id": 2516996,
+  "kickoff": 1523203200.0,
+  "league": "Germany",
+  "split": "model_validation"
+ }
+]

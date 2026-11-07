@@ -1,0 +1,53 @@
+{
+  "raw_dir": "data/raw",
+  "league": "Germany",
+  "train_manifest": "configs/manifests/Germany_nontest.json",
+  "manifest_split": "nontest",
+  "actions_path": "data/processed/Germany_nontest/actions.parquet",
+  "onpitch_path": "data/processed/Germany_nontest/onpitch.parquet",
+  "player_match_path": "data/processed/Germany_nontest/player_match.parquet",
+  "build_summary_path": "data/processed/Germany_nontest/summary.json",
+  "big_six": [
+    "Bayern M\\u00fcnchen",
+    "RB Leipzig",
+    "Borussia Dortmund",
+    "Hoffenheim",
+    "K\\u00f6ln",
+    "Hertha BSC"
+  ],
+  "goal_overrides": [],
+  "position_overrides": [
+    {
+      "event_id": 225765704,
+      "x": 28,
+      "y": 100,
+      "reason": "Germany match 2516920, simple pass recorded at y = 101 (outside the pitch); set to the touchline y = 100"
+    }
+  ],
+  "onpitch_tolerance_minutes": 1.0,
+  "fine_role_min_events": 10,
+  "variables_all": [
+    "phase",
+    "prev_event",
+    "time_bin",
+    "score_state",
+    "venue",
+    "opponent_class",
+    "opp_last_event",
+    "possession_start",
+    "steps_since_change"
+  ],
+  "momentum_minutes": 5.0,
+  "since_cap": 200,
+  "back_pass_dx": 5.0,
+  "forward_dx": 15.0,
+  "high_regain_x": 50.0,
+  "coinciding_path": "data/processed/Germany_nontest/coinciding.parquet",
+  "coincide_seconds": 2.0,
+  "coincide_tolerance": 5.0,
+  "exclude_own_in_possession_start": false,
+  "first_action_interception": true,
+  "who_path": "data/processed/Germany_nontest/candidates.npz",
+  "causal_counts_path": "data/processed/Germany_nontest/candidate_counts.json",
+  "card_overrides": []
+}

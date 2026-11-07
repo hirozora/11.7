@@ -1,0 +1,24 @@
+{
+  "scopes": [
+    "configs/model/England_nontest.json",
+    "configs/model/France_nontest.json",
+    "configs/model/Germany_nontest.json",
+    "configs/model/Italy_nontest.json",
+    "configs/model/Spain_nontest.json"
+  ],
+  "offsets": "results/model/m1/seed20260715/offsets.npz",
+  "probes": {
+    "e0": [
+      "d0"
+    ],
+    "e2": [
+      "d2"
+    ],
+    "e0_e2": [
+      "d0",
+      "d2"
+    ]
+  },
+  "ridge": 1.0,
+  "out_dir": "results/model/offball_probe/m1"
+}

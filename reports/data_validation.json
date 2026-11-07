@@ -1,0 +1,14 @@
+{
+  "league": "England",
+  "matches": 266,
+  "actions": 303599,
+  "test_overlap": 0,
+  "candidate_rows": 3348914,
+  "actions_in_candidates": 303522,
+  "excluded_actor_actions": 77,
+  "tolerance_candidate_rows": 14510,
+  "red_card_player_matches": 29,
+  "onpitch_count_mismatches": 0,
+  "actions_with_opponent_overlap": 30457,
+  "actions_with_own_overlap": 6105
+}

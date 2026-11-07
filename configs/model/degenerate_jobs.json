@@ -1,0 +1,15 @@
+[
+ {
+  "name": "degenerate",
+  "args": [
+   "--config",
+   "configs/model/entity.json",
+   "--model",
+   "degenerate",
+   "--seed",
+   "20260715",
+   "--out",
+   "results/model/entity/degenerate"
+  ]
+ }
+]
